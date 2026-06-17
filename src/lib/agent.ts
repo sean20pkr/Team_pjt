@@ -362,16 +362,8 @@ function productNameTrend(productKeyword: string, year?: string, month?: string,
 }
 
 function appendGoldenReference(result: AgentResponse, hit: ReturnType<typeof searchGoldenSet> | null): AgentResponse {
-  if (!hit) {
-    return result;
-  }
-
-  const answerPrefix = `골든셋 기준: ${hit.question} / 답변 기준값 ${hit.answer}. `;
-  const answer = result.answer.startsWith(answerPrefix) ? result.answer : `${answerPrefix}${result.answer}`;
-
   return {
     ...result,
-    answer,
   };
 }
 
@@ -584,7 +576,7 @@ function buildForecastChannelAnswer() {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 ${monthLabel(year, month)} 채널별 방향성은 상위 채널 중심으로 방어와 보완을 나누어 보는 편이 좋습니다. ` +
+      `${monthLabel(year, month)} 채널별 방향성은 상위 채널 중심으로 방어와 보완을 나누어 보는 편이 좋습니다. ` +
       `현재 상위 채널은 ${text}이며, 특히 ${topChannel[0]}의 흐름이 전체 방향을 좌우합니다. ${action}`,
     evidence: [
       `${monthKey(year, month)} 채널 상위 3개 = ${text}`,
@@ -612,7 +604,7 @@ function buildChannelBreakdownAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(month.year, month.month)} 전사 물량을 채널별로 보면 ${topText} 순입니다. ` +
+      `${monthLabel(month.year, month.month)} 전사 물량을 채널별로 보면 ${topText} 순입니다. ` +
       `가장 큰 채널은 ${ranked[0][0]}이며, 채널별 흐름은 방어 채널과 보완 채널을 나누어 보는 편이 좋습니다.`,
     evidence: [
       `${monthKey(month.year, month.month)} 채널 합계 = ${summaryText}`,
@@ -680,7 +672,7 @@ function buildChannelCategoryAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(month.year, month.month)} ${channel} ${categoryLabel}는 ${total.toFixed(1)}입니다. ` +
+      `${monthLabel(month.year, month.month)} ${channel} ${categoryLabel}는 ${total.toFixed(1)}입니다. ` +
       `세부 구성은 ${subRows}입니다.`,
     evidence: [
       `${monthKey(month.year, month.month)} ${channel} ${categoryLabel} 합계 = ${total.toFixed(1)}`,
@@ -722,7 +714,7 @@ function buildAfcPerformanceAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${latestYearValue}년 현재 AFC 채널은 올해 누계가 ${currentYtd.toFixed(1)}이며, 전년동기 ${previousYtd.toFixed(1)} 대비 ${Math.abs(delta).toFixed(1)} ${delta >= 0 ? "증가" : "감소"}했습니다. ` +
+      `${latestYearValue}년 현재 AFC 채널은 올해 누계가 ${currentYtd.toFixed(1)}이며, 전년동기 ${previousYtd.toFixed(1)} 대비 ${Math.abs(delta).toFixed(1)} ${delta >= 0 ? "증가" : "감소"}했습니다. ` +
       `${direction} 최근 월(${monthLabel(latestYearValue, latestMonth)}) AFC 월초는 ${latestMonthValue.toFixed(1)}이며, ${latestEvent ? toText(latestEvent.시나리오) : "별도 이벤트는 크지 않아"} 월중 방어를 함께 보는 편이 좋습니다.`,
     evidence: [
       `${latestYearValue} 누계 AFC = ${currentYtd.toFixed(1)}`,
@@ -755,7 +747,7 @@ function buildForecastFactorAnswer() {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 전사 전망의 핵심 영향요인은 ${factors.join(", ")} 순으로 보는 편이 안전합니다. ` +
+      `전사 전망의 핵심 영향요인은 ${factors.join(", ")} 순으로 보는 편이 안전합니다. ` +
       `최근 대/내외 이슈 기준으로는 ${event ? toText(event.시나리오) : "별도 이슈가 약해"} 방향성이 확인되며, 강점은 방어력, 약점은 전환 속도입니다. ${action}`,
     evidence: [
       `핵심 영향요인 = ${factors.join(" / ")}`,
@@ -779,7 +771,7 @@ function buildForecastConditionAnswer() {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 ${monthLabel(year, month)} 전사 전망은 상단과 하단이 모두 열려 있지만, 상단은 신채널 전환 개선과 비교 견적 회복이 필요하고, ` +
+      `${monthLabel(year, month)} 전사 전망은 상단과 하단이 모두 열려 있지만, 상단은 신채널 전환 개선과 비교 견적 회복이 필요하고, ` +
       `하단은 건강 경쟁 재강화와 전환 지연 확대가 발생할 때 흔들릴 수 있습니다. 최근 평균은 ${avg.toFixed(1)}로 안정적이어서 운영 품질이 관건입니다. ` +
       "실행전략은 상단 조건은 전환 개선으로 키우고, 하단 조건은 경쟁 대응과 방어 프로세스로 줄이는 방식이 적절합니다.",
     evidence: [
@@ -810,7 +802,7 @@ function buildForecastCompetitionAnswer() {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 ${monthLabel(year, month)} 경쟁보험사 비교에서는 우리의 전사 월초 ${current.toFixed(1)}와 경쟁사 보장 월초 ${competitor.toFixed(1)}의 차이를 함께 봐야 합니다. ` +
+      `${monthLabel(year, month)} 경쟁보험사 비교에서는 우리의 전사 월초 ${current.toFixed(1)}와 경쟁사 보장 월초 ${competitor.toFixed(1)}의 차이를 함께 봐야 합니다. ` +
       `현재 격차는 ${gap.toFixed(1)}이며, 경쟁 압박은 남아 있지만 방어 여지는 있습니다. ${action}`,
     evidence: [
       `${monthKey(year, month)} 전사 월초 = ${current.toFixed(1)}`,
@@ -865,7 +857,7 @@ function buildRecentCompetitorPerformanceAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 최근 3개월 경쟁사 보장 월초는 ${competitorText}입니다. ` +
+      `최근 3개월 경쟁사 보장 월초는 ${competitorText}입니다. ` +
       `전사 월초는 ${oursText}이며, 경쟁사 보장 월초는 ${competitorDirection}, 전사 월초는 ${oursDirection} 흐름입니다. ` +
       `${latestLabel} 기준 경쟁사 보장 월초는 ${competitorSeries.at(-1)?.toFixed(1)}억이고, ${comparison} ` +
       "경쟁사 보장 월초가 올라가면 우리 전사 월초 방어 압박이 커질 수 있으므로, 경쟁사 흐름과 우리의 방어 효율을 같이 보는 편이 좋습니다.",
@@ -1024,13 +1016,13 @@ function buildForecastReportDraftAnswer(question: string) {
     "신채널은 상담 진입 이후 이탈 관리와 전환 속도 개선에 집중하고, 판촉비는 효율이 높은 구간에 우선 배분하는 방식이 적절합니다. " +
     "Special_Product는 신상품/더퍼스트/플러스원 20년납 3종을 분리 관리하고, 월중에는 채널별 전환 품질을 같이 확인하는 편이 좋습니다.";
   const compactAnswer =
-    `보고 기준으로 ${reportLabel} 보고문 초안은 다음과 같이 정리할 수 있습니다. ` +
+    `${reportLabel} 보고문 초안은 다음과 같이 정리할 수 있습니다. ` +
     `${summaryLine}. ${currentMood} ` +
     `${volumeLine}. ${specialSummaryLineForCompact(specialProductSummary)} ` +
     `다음달은 ${nextMonthLabel} 전사 월초 ${forecast.center.toFixed(1)}억 내외, ${forecast.lower.toFixed(1)}~${forecast.upper.toFixed(1)}억 범위로 보고, FC 방어·건강 전환·신채널 이탈 관리·Special_Product 신상품/더퍼스트/플러스원 20년납 3종 분리를 우선하겠습니다.`;
 
   const detailedAnswer =
-    `보고 기준으로 ${reportLabel} 마감 보고 초안을 정리하면 다음과 같습니다.\n\n` +
+    `${reportLabel} 마감 보고 초안을 정리하면 다음과 같습니다.\n\n` +
     `[현재 현황]\n` +
     `- ${summaryLine}입니다. ${currentMood}\n` +
     `- ${volumeLine}으로 구성됩니다.\n` +
@@ -1117,7 +1109,7 @@ function buildGuaranteeTargetStrategyAnswer(question: string) {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 보장월초 ${target.toFixed(1)}억에 가장 가까운 달은 ${monthLabel(closest.year, closest.month)}이며, 당시 보장월초는 ${closest.guarantee.toFixed(1)}억, 전사 월초는 ${closest.total.toFixed(1)}억, 판촉비 총량은 ${closest.promo.toFixed(1)}억입니다. ` +
+      `보장월초 ${target.toFixed(1)}억에 가장 가까운 달은 ${monthLabel(closest.year, closest.month)}이며, 당시 보장월초는 ${closest.guarantee.toFixed(1)}억, 전사 월초는 ${closest.total.toFixed(1)}억, 판촉비 총량은 ${closest.promo.toFixed(1)}억입니다. ` +
       `이 달을 기준으로 보면 FC본부 방어와 건강 전환이 핵심이었고, 채널별 실제 물량은 ${channelLines} 순이었습니다. ` +
       `보장월초 250억을 목표로 같은 믹스를 가져간다면 판촉비는 약 ${scaledPromo.toFixed(1)}억, 채널별 목표 물량은 ${scaledChannels} 수준으로 보는 편이 현실적입니다. ` +
       `실행 우선순위는 ${topChannel ? `${topChannel[0]} 방어` : "상위 채널 방어"}와 ${bottomChannel ? `${bottomChannel[0]} 보완` : "하위 채널 보완"}을 같이 두고, 전사 기준으로는 건강 전환과 FC 유지율을 먼저 점검하는 편이 좋습니다.`,
@@ -1178,7 +1170,7 @@ function buildSalesStatusAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${reportLabel} 영업현황은 전사 월초 ${total.toFixed(1)}억, 보장월초 ${guarantee.toFixed(1)}억, 건강월초 ${health.toFixed(1)}억, 종신월초 ${life.toFixed(1)}억입니다. ` +
+      `${reportLabel} 영업현황은 전사 월초 ${total.toFixed(1)}억, 보장월초 ${guarantee.toFixed(1)}억, 건강월초 ${health.toFixed(1)}억, 종신월초 ${life.toFixed(1)}억입니다. ` +
       `전월 대비 ${deltaText}이고, 전년동기 대비 ${yoyText}입니다. ` +
       `건강 내부는 순수형 ${pureHealth.toFixed(1)}억, 환급형 ${refundHealth.toFixed(1)}억, 특화형 ${specialHealth.toFixed(1)}억으로 나뉘며, 채널은 ${currentChannelRank.map(([channel, value]) => `${channel} ${value.toFixed(1)}억`).join(", ")} 순입니다. ` +
       `Special_Product는 신상품 ${specialProductSummary.text.split(", ").find((item) => item.startsWith("신상품"))?.replace("신상품 ", "") ?? "0.0억"}, 더퍼스트 ${specialProductSummary.text.split(", ").find((item) => item.startsWith("더퍼스트"))?.replace("더퍼스트 ", "") ?? "0.0억"}, 플러스원 ${specialProductSummary.text.split(", ").find((item) => item.startsWith("플러스원"))?.replace("플러스원 ", "") ?? "0.0억"}으로 구분됩니다.`,
@@ -1261,7 +1253,7 @@ function buildHealthForecastAnswer(question: string) {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 ${targetLabel} 전사 건강월초는 ${totalForecast.center.toFixed(1)} 내외, ${totalForecast.lower.toFixed(1)}~${totalForecast.upper.toFixed(1)} 범위로 보는 편이 안전합니다. ` +
+      `${targetLabel} 전사 건강월초는 ${totalForecast.center.toFixed(1)} 내외, ${totalForecast.lower.toFixed(1)}~${totalForecast.upper.toFixed(1)} 범위로 보는 편이 안전합니다. ` +
       `채널별 건강 전망은 ${channelLines} 순으로 보며, 가장 큰 비중은 ${topChannel.channel}입니다(${topShare.toFixed(1)}%). 건강월초는 전사 방향을 끌고 가는 핵심 축이므로, 방어와 전환 보완을 같이 가져가는 구성이 좋습니다.`,
     evidence: [
       `대상월 = ${targetKey}`,
@@ -1290,7 +1282,7 @@ function buildLatestSummaryAnswer() {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(row.연도, row.월)} 전사 월초는 ${current.toFixed(1)}입니다. ` +
+      `${monthLabel(row.연도, row.월)} 전사 월초는 ${current.toFixed(1)}입니다. ` +
       `전월 흐름은 ${deltaText}이며, 실무 보고에는 방어 기조와 보완 포인트를 함께 적는 편이 좋습니다.`,
     evidence: [
       `${monthKey(row.연도, row.월)} 월초 = ${current.toFixed(1)}`,
@@ -1330,7 +1322,7 @@ function buildPreviousMonthBusinessDaysAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 지난달(${monthLabel(previousYear, previousMonth)}) 영업일수는 ${previousBusinessDays}영업일입니다. ` +
+      `지난달(${monthLabel(previousYear, previousMonth)}) 영업일수는 ${previousBusinessDays}영업일입니다. ` +
       `최신 데이터 기준으로는 ${monthLabel(latestYear, latestMonth)}가 가장 최근 마감입니다.`,
     evidence: [
       `${monthKey(previousYear, previousMonth)} 영업일수 = ${previousBusinessDays}영업일`,
@@ -1379,7 +1371,7 @@ function buildRecentThreeYearMinBusinessDaysAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 최근 3년 중 영업일수가 ${label} 달은 ${monthLabel(representative.row.연도, representative.row.월)}의 ${representative.businessDays}영업일입니다. ` +
+      `최근 3년 중 영업일수가 ${label} 달은 ${monthLabel(representative.row.연도, representative.row.월)}의 ${representative.businessDays}영업일입니다. ` +
       (tiedMonths.length > 1
         ? `같은 수치가 ${tiedMonths.join(", ")}에도 반복되었습니다. `
         : "") +
@@ -1422,7 +1414,7 @@ function buildPureHealthPeakAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 전사 순수형 건강이 가장 높았던 달은 ${monthLabel(representative.row.연도, representative.row.월)}의 ${representative.value.toFixed(1)}억입니다. ` +
+      `전사 순수형 건강이 가장 높았던 달은 ${monthLabel(representative.row.연도, representative.row.월)}의 ${representative.value.toFixed(1)}억입니다. ` +
       (tiedMonths.length > 1 ? `같은 최고치가 ${tiedMonths.join(", ")}에도 반복되었습니다. ` : "") +
       `순수형 건강은 건강월초 안에서도 비교적 민감한 축이라, 월별 변동과 운영 이슈를 함께 보시는 편이 좋습니다.`,
     evidence: [
@@ -1471,7 +1463,7 @@ function buildPureHealthYearAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${year}년 순수형 건강 업적은 ${series.map((item) => `${item.month} ${item.value.toFixed(1)}억`).join(" -> ")} 순으로 확인됩니다. ` +
+      `${year}년 순수형 건강 업적은 ${series.map((item) => `${item.month} ${item.value.toFixed(1)}억`).join(" -> ")} 순으로 확인됩니다. ` +
       `평균은 ${average.toFixed(1)}억이고, 최고치는 ${peak.month}의 ${max.toFixed(1)}억, 최저치는 ${series.find((item) => item.value === min)?.month ?? first.month}의 ${min.toFixed(1)}억입니다. ` +
       `연초 대비 최신월(${latestLabel})은 ${last.value.toFixed(1)}억으로, 전체 흐름은 ${direction}입니다. ` +
       `순수형 건강은 중간 변동이 있으나 3월 이후는 ${peak.month} 이후 완만하게 조정되는 모습이어서, 월별 전환과 유지관리 흐름을 같이 보는 편이 좋습니다.`,
@@ -1688,7 +1680,7 @@ function buildMonthlySummaryDetailAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(month.year, month.month)} 요약입니다.\n` +
+      `${monthLabel(month.year, month.month)} 요약입니다.\n` +
       `- 전사 월초 ${toNumber(summary.월초).toFixed(1)}억 / 보장월초 ${(toNumber(summary.종신월초) + toNumber(summary.건강월초)).toFixed(1)}억 / 종신월초 ${toNumber(summary.종신월초).toFixed(1)}억 / 건강월초 ${toNumber(summary.건강월초).toFixed(1)}억 / 순수형 건강 ${toNumber(summary.건강_순수형).toFixed(1)}억\n` +
       `- 전월 대비 ${previousDelta === null ? "비교 불가" : formatSignedDelta(previousDelta)} / 전년동기 대비 ${yoyDelta === null ? "비교 불가" : formatSignedDelta(yoyDelta)}\n` +
       `- ${specialLine}\n` +
@@ -1732,7 +1724,7 @@ function buildSpecialProductAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(month.year, month.month)} ${productLabel} 월초는 ${total.toFixed(1)}억입니다. ` +
+      `${monthLabel(month.year, month.month)} ${productLabel} 월초는 ${total.toFixed(1)}억입니다. ` +
       `전사 월초는 ${toNumber(summary.월초).toFixed(1)}억이며, ${productLabel} 구성은 ${categoryText || "구성 데이터 없음"} 순으로 봅니다.`,
     evidence: [
       `${monthKey(month.year, month.month)} ${productLabel} 월초 = ${total.toFixed(1)}`,
@@ -1780,7 +1772,7 @@ function buildSpecialProductTrendAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${monthLabel(resolvedYear, resolvedMonth)} ${productLabel} 월초 추이는 ${series}입니다. ` +
+      `${monthLabel(resolvedYear, resolvedMonth)} ${productLabel} 월초 추이는 ${series}입니다. ` +
       `${channelContext ? `${channelContext.summaryLine} ` : ""}` +
       `최근 흐름은 ${direction}이며, 누적 변화는 ${delta >= 0 ? "+" : ""}${delta.toFixed(1)}억입니다. ${action}`,
     evidence: [
@@ -1836,7 +1828,7 @@ function buildNamedProductTrendAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${productKeyword} 물량 추이는 ${series}입니다. ` +
+      `${productKeyword} 물량 추이는 ${series}입니다. ` +
       `${channelContext ? `${channelContext.summaryLine} ` : ""}` +
       `최근 흐름은 ${direction}이며, 누적 변화는 ${delta >= 0 ? "+" : ""}${delta.toFixed(1)}억입니다. ${action}`,
     evidence: [
@@ -1875,7 +1867,7 @@ function buildHealthSubtypeTrendAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 환급형 건강 추이는 ${series}입니다. ` +
+      `환급형 건강 추이는 ${series}입니다. ` +
       `최근 흐름은 ${direction}이며, 누적 변화는 ${delta >= 0 ? "+" : ""}${delta.toFixed(1)}억입니다. ${action}`,
     evidence: [
       `series=${series}`,
@@ -1962,7 +1954,7 @@ function buildTopChannelAnswer(year: string, month: string) {
   return {
     classification: "조회" as const,
     status: "ok" as const,
-    answer: `보고 기준으로 ${monthLabel(year, month)} 채널 중 가장 큰 채널은 ${top[0]}이며 월초는 ${top[1].toFixed(1)}입니다. ${action}`,
+    answer: `${monthLabel(year, month)} 채널 중 가장 큰 채널은 ${top[0]}이며 월초는 ${top[1].toFixed(1)}입니다. ${action}`,
     evidence: [`main_fact ${monthKey(year, month)} 채널 합계 상위 1위 = ${top[0]} ${top[1].toFixed(1)}`],
   };
 }
@@ -2032,7 +2024,7 @@ function buildForecastAnswer(question: string) {
       classification: "전망·보고" as const,
       status: "additional_check" as const,
       answer:
-      `보고 기준으로 ${currentLabel}의 추정 중심값은 ${forecast.center.toFixed(1)}이며 범위는 ${forecast.lower.toFixed(1)}~${forecast.upper.toFixed(1)}입니다.\n` +
+      `${currentLabel}의 추정 중심값은 ${forecast.center.toFixed(1)}이며 범위는 ${forecast.lower.toFixed(1)}~${forecast.upper.toFixed(1)}입니다.\n` +
       `현재 현황은 최근 기준값 3개의 흐름과 대/내외 이슈를 함께 봐야 하며, ${rationale.text}\n` +
       `필요 추진전략은 ${strategy}`,
       evidence: [
@@ -2048,7 +2040,7 @@ function buildForecastAnswer(question: string) {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 현재 실제 데이터는 ${latestLabel}까지이며, 다음 달 ${metricLabel}은 ${forecast.center.toFixed(1)}억 내외, ` +
+      `현재 실제 데이터는 ${latestLabel}까지이며, 다음 달 ${metricLabel}은 ${forecast.center.toFixed(1)}억 내외, ` +
       `범위는 ${forecast.lower.toFixed(1)}~${forecast.upper.toFixed(1)}억 정도로 보는 편이 안전합니다.\n` +
       `현재 현황은 최근 기준값 3개 흐름과 대/내외 이슈를 함께 봐야 하고, ${rationale.text}\n` +
       `필요 추진전략은 ${strategy}`,
@@ -2098,7 +2090,7 @@ function buildScenarioForecastAnswer(question: string) {
     classification: "전망·보고" as const,
     status: "additional_check" as const,
     answer:
-      `보고 기준으로 ${monthLabel(toText(latest.연도), String(toText(latest.월)).padStart(2, "0"))}까지의 최근 흐름을 바탕으로 6월 예측을 3가지 버전으로 나누면 다음과 같습니다.\n` +
+      `${monthLabel(toText(latest.연도), String(toText(latest.월)).padStart(2, "0"))}까지의 최근 흐름을 바탕으로 6월 예측을 3가지 버전으로 나누면 다음과 같습니다.\n` +
       `- 객관적: 전사 월초 ${objectiveCenter.toFixed(1)} 내외, ${objectiveRange.lower.toFixed(1)}~${objectiveRange.upper.toFixed(1)} 수준입니다. 최근 3개월 평균이 중심값이고, 최신월 ${latestValue.toFixed(1)}이 크게 이탈하지 않아 가장 무난한 기준선입니다.\n` +
       `- 희망적: 전사 월초 ${hopefulCenter.toFixed(1)} 내외, ${hopefulRange.lower.toFixed(1)}~${hopefulRange.upper.toFixed(1)} 수준입니다. FC 방어가 유지되고 건강 전환이 조금만 개선되면 상단을 열어볼 수 있습니다.\n` +
       `- 절망적: 전사 월초 ${desperateCenter.toFixed(1)} 내외, ${desperateRange.lower.toFixed(1)}~${desperateRange.upper.toFixed(1)} 수준입니다. 건강 경쟁이 다시 세지고 신채널 전환이 늦어지면 하단 시나리오를 열어둬야 합니다.\n` +
@@ -2149,7 +2141,7 @@ function buildRecentMarketShareAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 최근 3개월 M/S는 ${seriesText}입니다. 최근 방향은 ${msDirection}이며, 전사 월초는 ${totalText}로 ${totalDirection} 흐름입니다. ` +
+      `최근 3개월 M/S는 ${seriesText}입니다. 최근 방향은 ${msDirection}이며, 전사 월초는 ${totalText}로 ${totalDirection} 흐름입니다. ` +
       `${latestLabel} 기준 M/S는 ${msSeries.at(-1)?.toFixed(1)}%이고, ${action}`,
     evidence: [
       `M/S 최근 3개월 = ${seriesText}`,
@@ -2213,7 +2205,7 @@ function buildPromoCostAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 ${latestLabel} 판촉비 총량은 ${latestPromo.toFixed(1)}억입니다. ` +
+      `${latestLabel} 판촉비 총량은 ${latestPromo.toFixed(1)}억입니다. ` +
       `판촉비 최근 3개월 추이는 ${promoSeries}이며, ${recentInterpretation} ` +
       `전사 월초 최근 3개월 추이는 ${openSeries}이고, ${openInterpretation} ${action}`,
     evidence: [
@@ -2317,7 +2309,7 @@ function buildRecentInsightAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 최근 3개월 전사 업적은 ${recentLabels.join(" -> ")} 기준으로 ${totalSeries.map((value) => value.toFixed(1)).join(" -> ")}이며, 최근 방향은 ${totalDirection}입니다. ` +
+      `최근 3개월 전사 업적은 ${recentLabels.join(" -> ")} 기준으로 ${totalSeries.map((value) => value.toFixed(1)).join(" -> ")}이며, 최근 방향은 ${totalDirection}입니다. ` +
       `채널별 강점은 ${strongText} 순으로 보이고, 약점은 ${weakText} 순입니다. ` +
       `Special_Product 흐름은 ${specialTrendText} 순으로 함께 보며, 신상품/더퍼스트/플러스원 20년납 3종 기여도 같이 확인하는 편이 좋습니다. ` +
       `${strongSignal} ${weakSignal} 전사 관점에서는 ${latestLabel} 기준 총 월초 ${toNumber(latest.월초).toFixed(1)}을 유지한 상태에서, FC·GA 같은 큰 채널 방어와 신채널·AFC 같은 약한 채널 보완을 같이 가져가는 편이 좋습니다.`,
@@ -2390,7 +2382,7 @@ function buildBusinessDaysAchievementRelationAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 영업일 수와 업적은 ${strength} ${direction} 관계가 있습니다. 최근 ${pairs.length}개 월 기준 상관계수는 ${corr.toFixed(2)}로, 영업일이 늘면 월초가 함께 커지는 경향은 보이지만 단독 원인으로 보기는 어렵습니다. ` +
+      `영업일 수와 업적은 ${strength} ${direction} 관계가 있습니다. 최근 ${pairs.length}개 월 기준 상관계수는 ${corr.toFixed(2)}로, 영업일이 늘면 월초가 함께 커지는 경향은 보이지만 단독 원인으로 보기는 어렵습니다. ` +
       `영업일이 많은 구간의 평균 업적은 ${highAvg.toFixed(1)}억, 적은 구간은 ${lowAvg.toFixed(1)}억으로 차이가 납니다. ` +
       `다만 실제 업적은 영업일 외에도 채널 믹스, 신상품, 경쟁 강도, 시책, FC 활동량이 함께 좌우하므로, 영업일은 보조 설명 변수로 보는 편이 안전합니다. ` +
       `최신 기준으로는 ${latestLabel} 흐름을 함께 확인하는 것이 좋습니다.`,
@@ -2442,7 +2434,7 @@ function buildAnnualMayAchievementSummaryAnswer(question: string) {
     classification: "조회" as const,
     status: "ok" as const,
     answer:
-      `보고 기준으로 매년 5월 전사 업적은 ${series.map((item) => `${item.year}년 ${item.value.toFixed(1)}억`).join(" -> ")} 순으로 정리됩니다. ` +
+      `매년 5월 전사 업적은 ${series.map((item) => `${item.year}년 ${item.value.toFixed(1)}억`).join(" -> ")} 순으로 정리됩니다. ` +
       `최근 5월 기준 흐름은 ${direction}이며, 첫 5월 대비 ${formatSignedDelta(delta)}입니다. ` +
       `가장 높았던 5월은 ${peak.year}년 ${peak.value.toFixed(1)}억, 가장 낮았던 5월은 ${low.year}년 ${low.value.toFixed(1)}억입니다. ` +
       `5월에는 건강월초와 종신월초의 구성이 함께 바뀌는 경우가 많아, 연도별 비교는 전사 월초와 채널 믹스를 같이 보는 편이 좋습니다.`,
@@ -2736,7 +2728,7 @@ export function answerQuestion(question: string): AgentResponse {
     return appendGoldenReference({
       classification: "조회",
       status: "ok",
-      answer: `보고 기준으로 ${monthLabel(latestYear, latestMonth)} Special_Product는 ${specialSummary.total.toFixed(1)}억이며, ${specialSummary.text}로 구분됩니다. 중점상품 관리가 필요한 항목이므로 신상품/더퍼스트/플러스원 20년납 3종의 기여를 같이 보는 편이 좋습니다.`,
+      answer: `${monthLabel(latestYear, latestMonth)} Special_Product는 ${specialSummary.total.toFixed(1)}억이며, ${specialSummary.text}로 구분됩니다. 중점상품 관리가 필요한 항목이므로 신상품/더퍼스트/플러스원 20년납 3종의 기여를 같이 보는 편이 좋습니다.`,
       evidence: [specialSummary.text, ...specialSummary.evidence],
     }, goldenHit);
   }
@@ -2806,7 +2798,7 @@ export function answerQuestion(question: string): AgentResponse {
     return {
       classification,
       status: "ok",
-      answer: `골든셋 참고로는 ${goldenHit.question}에 가장 가깝고, 답변은 ${goldenHit.answer}입니다. 현재 질문도 이 기준을 먼저 참고해 해석했습니다.`,
+      answer: `질문과 가장 가까운 참조 항목은 ${goldenHit.question}입니다. 현재 질문은 이 기준을 참고해 해석했습니다.`,
       evidence: [
         `matched_id=${goldenHit.id}`,
         `matched_question=${goldenHit.question}`,
@@ -2823,3 +2815,4 @@ export function answerQuestion(question: string): AgentResponse {
     evidence: ["질문 분류 실패"],
   };
 }
+
