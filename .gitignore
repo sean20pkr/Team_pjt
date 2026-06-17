@@ -1,0 +1,31 @@
+# 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# Next.js / Node
+.next
+node_modules
+out
+coverage
+.vercel
+.npm-cache
+.vercel-data
+.vercel-home
+.vercel-config
+AppData
+tmpchrome
+*.log
+*.tsbuildinfo
+*.tmp
+current-page*.png
+graph-answer*.png
+graph-answer*.html
+graph-preview.png
+infographic-preview*.png
+infographic-preview*.html
+folder-check.txt
+channel_volume_4part_summary_2026-06-15.svg
+channel_volume_insight_agent_4panel_reference_ux.svg
+data/unanswered_questions.jsonl
+data/unanswered_insights.md

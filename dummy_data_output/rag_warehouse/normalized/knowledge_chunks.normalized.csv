@@ -1,0 +1,1087 @@
+source_kind,source_name,source_key,year,month,chunk_no,chunk_type,search_text,embedding,embedding_model,embedding_updated_at,source_file_id
+summary_row,monthly_summary.csv,2022-01,2022,1,1,summary_row,"2022년 1월 전사 월초 161, 건강 57.2, 종신 65.9, 연금 37.9, 시장전체 770.3, M/S 20.9, 판촉비총량 8.4",,,,
+summary_row,monthly_summary.csv,2022-02,2022,2,1,summary_row,"2022년 2월 전사 월초 157.8, 건강 56.7, 종신 64, 연금 37.1, 시장전체 740.8, M/S 21.3, 판촉비총량 8.8",,,,
+summary_row,monthly_summary.csv,2022-03,2022,3,1,summary_row,"2022년 3월 전사 월초 173.5, 건강 59.7, 종신 73, 연금 40.8, 시장전체 799.5, M/S 21.7, 판촉비총량 9.2",,,,
+summary_row,monthly_summary.csv,2022-04,2022,4,1,summary_row,"2022년 4월 전사 월초 174.2, 건강 60.6, 종신 72.6, 연금 41, 시장전체 849.8, M/S 20.5, 판촉비총량 8",,,,
+summary_row,monthly_summary.csv,2022-05,2022,5,1,summary_row,"2022년 5월 전사 월초 171.2, 건강 60.2, 종신 70.7, 연금 40.3, 시장전체 819.1, M/S 20.9, 판촉비총량 8.4",,,,
+summary_row,monthly_summary.csv,2022-06,2022,6,1,summary_row,"2022년 6월 전사 월초 165, 건강 58.7, 종신 67.5, 연금 38.8, 시장전체 774.6, M/S 21.3, 판촉비총량 8.8",,,,
+summary_row,monthly_summary.csv,2022-07,2022,7,1,summary_row,"2022년 7월 전사 월초 165.3, 건강 59.4, 종신 67, 연금 38.9, 시장전체 761.8, M/S 21.7, 판촉비총량 9.2",,,,
+summary_row,monthly_summary.csv,2022-08,2022,8,1,summary_row,"2022년 8월 전사 월초 159.4, 건강 54.9, 종신 67, 연금 37.5, 시장전체 777.6, M/S 20.5, 판촉비총량 8",,,,
+summary_row,monthly_summary.csv,2022-09,2022,9,1,summary_row,"2022년 9월 전사 월초 168, 건강 58.5, 종신 70, 연금 39.5, 시장전체 803.8, M/S 20.9, 판촉비총량 8.4",,,,
+summary_row,monthly_summary.csv,2022-10,2022,10,1,summary_row,"2022년 10월 전사 월초 178.6, 건강 62.8, 종신 73.8, 연금 42, 시장전체 838.5, M/S 21.3, 판촉비총량 8.8",,,,
+summary_row,monthly_summary.csv,2022-11,2022,11,1,summary_row,"2022년 11월 전사 월초 177.6, 건강 63.1, 종신 72.7, 연금 41.8, 시장전체 818.4, M/S 21.7, 판촉비총량 9.2",,,,
+summary_row,monthly_summary.csv,2022-12,2022,12,1,summary_row,"2022년 12월 전사 월초 188.2, 건강 67.6, 종신 76.3, 연금 44.3, 시장전체 918, M/S 20.5, 판촉비총량 8",,,,
+summary_row,monthly_summary.csv,2023-01,2023,1,1,summary_row,"2023년 1월 전사 월초 234.8, 건강 97.8, 종신 93.9, 연금 43.1, 시장전체 1082, M/S 21.7, 판촉비총량 11.2",,,,
+summary_row,monthly_summary.csv,2023-02,2023,2,1,summary_row,"2023년 2월 전사 월초 230.3, 건강 92.1, 종신 95.9, 연금 42.3, 시장전체 1042.1, M/S 22.1, 판촉비총량 11.6",,,,
+summary_row,monthly_summary.csv,2023-03,2023,3,1,summary_row,"2023년 3월 전사 월초 246.1, 건강 99.4, 종신 101.5, 연금 45.2, 시장전체 1093.8, M/S 22.5, 판촉비총량 12",,,,
+summary_row,monthly_summary.csv,2023-04,2023,4,1,summary_row,"2023년 4월 전사 월초 254.1, 건강 103.7, 종신 103.7, 연금 46.7, 시장전체 1193, M/S 21.3, 판촉비총량 10.8",,,,
+summary_row,monthly_summary.csv,2023-05,2023,5,1,summary_row,"2023년 5월 전사 월초 242.7, 건강 100, 종신 98.1, 연금 44.6, 시장전체 1118.4, M/S 21.7, 판촉비총량 11.2",,,,
+summary_row,monthly_summary.csv,2023-06,2023,6,1,summary_row,"2023년 6월 전사 월초 240.7, 건강 100.2, 종신 96.3, 연금 44.2, 시장전체 1089.1, M/S 22.1, 판촉비총량 11.6",,,,
+summary_row,monthly_summary.csv,2023-07,2023,7,1,summary_row,"2023년 7월 전사 월초 234.5, 건강 93.8, 종신 97.6, 연금 43.1, 시장전체 1042.2, M/S 22.5, 판촉비총량 12",,,,
+summary_row,monthly_summary.csv,2023-08,2023,8,1,summary_row,"2023년 8월 전사 월초 232.4, 건강 93.9, 종신 95.8, 연금 42.7, 시장전체 1091.1, M/S 21.3, 판촉비총량 10.8",,,,
+summary_row,monthly_summary.csv,2023-09,2023,9,1,summary_row,"2023년 9월 전사 월초 245.1, 건강 100.1, 종신 100, 연금 45, 시장전체 1129.5, M/S 21.7, 판촉비총량 11.2",,,,
+summary_row,monthly_summary.csv,2023-10,2023,10,1,summary_row,"2023년 10월 전사 월초 253.4, 건강 104.5, 종신 102.4, 연금 46.5, 시장전체 1146.6, M/S 22.1, 판촉비총량 11.6",,,,
+summary_row,monthly_summary.csv,2023-11,2023,11,1,summary_row,"2023년 11월 전사 월초 259, 건강 107.8, 종신 103.6, 연금 47.6, 시장전체 1151.1, M/S 22.5, 판촉비총량 12",,,,
+summary_row,monthly_summary.csv,2023-12,2023,12,1,summary_row,"2023년 12월 전사 월초 266.9, 건강 106.8, 종신 111.1, 연금 49, 시장전체 1253.1, M/S 21.3, 판촉비총량 10.8",,,,
+summary_row,monthly_summary.csv,2024-01,2024,1,1,summary_row,"2024년 1월 전사 월초 237.6, 건강 113.3, 종신 85.5, 연금 38.8, 시장전체 1056, M/S 22.5, 판촉비총량 11.9",,,,
+summary_row,monthly_summary.csv,2024-02,2024,2,1,summary_row,"2024년 2월 전사 월초 226.5, 건강 109, 종신 80.5, 연금 37, 시장전체 989.1, M/S 22.9, 판촉비총량 12.3",,,,
+summary_row,monthly_summary.csv,2024-03,2024,3,1,summary_row,"2024년 3월 전사 월초 248.9, 건강 120.8, 종신 87.5, 연금 40.6, 시장전체 1068.2, M/S 23.3, 판촉비총량 12.7",,,,
+summary_row,monthly_summary.csv,2024-04,2024,4,1,summary_row,"2024년 4월 전사 월초 249.9, 건강 122.3, 종신 86.8, 연금 40.8, 시장전체 1130.8, M/S 22.1, 판촉비총량 11.5",,,,
+summary_row,monthly_summary.csv,2024-05,2024,5,1,summary_row,"2024년 5월 전사 월초 245.5, 건강 121.2, 종신 84.2, 연금 40.1, 시장전체 1091.1, M/S 22.5, 판촉비총량 11.9",,,,
+summary_row,monthly_summary.csv,2024-06,2024,6,1,summary_row,"2024년 6월 전사 월초 236.8, 건강 112.9, 종신 85.2, 연금 38.7, 시장전체 1034.1, M/S 22.9, 판촉비총량 12.3",,,,
+summary_row,monthly_summary.csv,2024-07,2024,7,1,summary_row,"2024년 7월 전사 월초 237.2, 건강 114.1, 종신 84.4, 연금 38.7, 시장전체 1018, M/S 23.3, 판촉비총량 12.7",,,,
+summary_row,monthly_summary.csv,2024-08,2024,8,1,summary_row,"2024년 8월 전사 월초 235.1, 건강 114.1, 종신 82.6, 연금 38.4, 시장전체 1063.8, M/S 22.1, 판촉비총량 11.5",,,,
+summary_row,monthly_summary.csv,2024-09,2024,9,1,summary_row,"2024년 9월 전사 월초 241.2, 건강 118.1, 종신 83.7, 연금 39.4, 시장전체 1072, M/S 22.5, 판촉비총량 11.9",,,,
+summary_row,monthly_summary.csv,2024-10,2024,10,1,summary_row,"2024년 10월 전사 월초 256.4, 건강 126.6, 종신 87.9, 연금 41.9, 시장전체 1119.7, M/S 22.9, 판촉비총량 12.3",,,,
+summary_row,monthly_summary.csv,2024-11,2024,11,1,summary_row,"2024년 11월 전사 월초 254.7, 건강 121.5, 종신 91.6, 연금 41.6, 시장전체 1093.1, M/S 23.3, 판촉비총량 12.7",,,,
+summary_row,monthly_summary.csv,2024-12,2024,12,1,summary_row,"2024년 12월 전사 월초 270.1, 건강 130, 종신 96, 연금 44.1, 시장전체 1222.2, M/S 22.1, 판촉비총량 11.5",,,,
+summary_row,monthly_summary.csv,2025-01,2025,1,1,summary_row,"2025년 1월 전사 월초 239.2, 건강 121.5, 종신 79.4, 연금 38.3, 시장전체 1026.6, M/S 23.3, 판촉비총량 13",,,,
+summary_row,monthly_summary.csv,2025-02,2025,2,1,summary_row,"2025년 2월 전사 월초 234.4, 건강 120.1, 종신 76.8, 연금 37.5, 시장전체 989, M/S 23.7, 판촉비총량 13.4",,,,
+summary_row,monthly_summary.csv,2025-03,2025,3,1,summary_row,"2025년 3월 전사 월초 250.6, 건강 129.5, 종신 81, 연금 40.1, 시장전체 1039.8, M/S 24.1, 판촉비총량 13.8",,,,
+summary_row,monthly_summary.csv,2025-04,2025,4,1,summary_row,"2025년 4월 전사 월초 258.6, 건강 134.7, 종신 82.5, 연금 41.4, 시장전체 1129.3, M/S 22.9, 판촉비총량 12.6",,,,
+summary_row,monthly_summary.csv,2025-05,2025,5,1,summary_row,"2025년 5월 전사 월초 247, 건강 124.5, 종신 83, 연금 39.5, 시장전체 1060.1, M/S 23.3, 판촉비총량 13",,,,
+summary_row,monthly_summary.csv,2025-06,2025,6,1,summary_row,"2025년 6월 전사 월초 245.1, 건강 124.6, 종신 81.3, 연금 39.2, 시장전체 1034.2, M/S 23.7, 판촉비총량 13.4",,,,
+summary_row,monthly_summary.csv,2025-07,2025,7,1,summary_row,"2025년 7월 전사 월초 245.5, 건강 125.8, 종신 80.4, 연금 39.3, 시장전체 1018.7, M/S 24.1, 판촉비총량 13.8",,,,
+summary_row,monthly_summary.csv,2025-08,2025,8,1,summary_row,"2025년 8월 전사 월초 236.7, 건강 122.3, 종신 76.5, 연금 37.9, 시장전체 1033.6, M/S 22.9, 판촉비총량 12.6",,,,
+summary_row,monthly_summary.csv,2025-09,2025,9,1,summary_row,"2025년 9월 전사 월초 249.5, 건강 130, 종신 79.6, 연금 39.9, 시장전체 1070.8, M/S 23.3, 판촉비총량 13",,,,
+summary_row,monthly_summary.csv,2025-10,2025,10,1,summary_row,"2025년 10월 전사 월초 258, 건강 130, 종신 86.7, 연금 41.3, 시장전체 1088.6, M/S 23.7, 판촉비총량 13.4",,,,
+summary_row,monthly_summary.csv,2025-11,2025,11,1,summary_row,"2025년 11월 전사 월초 263.7, 건강 134, 종신 87.5, 연금 42.2, 시장전체 1094.2, M/S 24.1, 판촉비총량 13.8",,,,
+summary_row,monthly_summary.csv,2025-12,2025,12,1,summary_row,"2025년 12월 전사 월초 271.8, 건강 139.3, 종신 89, 연금 43.5, 시장전체 1186.9, M/S 22.9, 판촉비총량 12.6",,,,
+summary_row,monthly_summary.csv,2026-01,2026,1,1,summary_row,"2026년 1월 전사 월초 250.7, 건강 126.8, 종신 84.6, 연금 39.3, 시장전체 1066.8, M/S 23.5, 판촉비총량 13.4",,,,
+summary_row,monthly_summary.csv,2026-02,2026,2,1,summary_row,"2026년 2월 전사 월초 239, 건강 121.9, 종신 79.6, 연금 37.5, 시장전체 1000, M/S 23.9, 판촉비총량 13.8",,,,
+summary_row,monthly_summary.csv,2026-03,2026,3,1,summary_row,"2026년 3월 전사 월초 262.7, 건강 135.1, 종신 86.4, 연금 41.2, 시장전체 1055, M/S 24.9, 판촉비총량 14.2",,,,
+summary_row,monthly_summary.csv,2026-04,2026,4,1,summary_row,"2026년 4월 전사 월초 263.7, 건강 131.2, 종신 91.1, 연금 41.4, 시장전체 1112.7, M/S 23.7, 판촉비총량 13",,,,
+summary_row,monthly_summary.csv,2026-05,2026,5,1,summary_row,"2026년 5월 전사 월초 259, 건강 129.9, 종신 88.5, 연금 40.6, 시장전체 1074.7, M/S 24.1, 판촉비총량 13.4",,,,
+event_row,monthly_events.csv,2022-01-거시/사회,2022,1,1,event_row,2022년 1월 거시/사회 / 연초 경기 전망이 보수적으로 바뀌며 상담 전환 속도가 늦어졌다 / 하방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2022-02-거시/사회,2022,2,1,event_row,"2022년 2월 거시/사회 / 대외 뉴스가 불안 심리를 키워 신규 문의가 전월보다 줄었다 / 하방 / 중 / FC, GA",,,,
+event_row,monthly_events.csv,2022-03-거시/사회,2022,3,1,event_row,2022년 3월 거시/사회 / 소비심리 회복으로 보장성 문의가 완만하게 늘었다 / 상방 / 중 / 건강,,,,
+event_row,monthly_events.csv,2022-04-거시/사회,2022,4,1,event_row,2022년 4월 거시/사회 / 가계지출 부담이 커지며 장기 유지형 문의가 뒤로 밀렸다 / 하방 / 중 / 종신,,,,
+event_row,monthly_events.csv,2022-05-제도/규제,2022,5,1,event_row,2022년 5월 제도/규제 / 상품 설명 문구 점검이 길어져 GA 채널의 계약 속도가 느려졌다 / 하방 / 중 / GA,,,,
+event_row,monthly_events.csv,2022-06-제도/규제,2022,6,1,event_row,2022년 6월 제도/규제 / 서류 기준이 단순화되며 디지털 채널의 마감 속도가 좋아졌다 / 상방 / 약 / 디지털,,,,
+event_row,monthly_events.csv,2022-07-제도/규제,2022,7,1,event_row,2022년 7월 제도/규제 / 심사 기준 강화로 고액 건의 최종 확정이 지연되었다 / 하방 / 중 / 종신,,,,
+event_row,monthly_events.csv,2022-08-제도/규제,2022,8,1,event_row,2022년 8월 제도/규제 / 절판성 안내가 늘면서 건강형 문의가 단기적으로 튀었다 / 상방 / 중 / 건강,,,,
+event_row,monthly_events.csv,2022-09-시장 자금 이동,2022,9,1,event_row,2022년 9월 시장 자금 이동 / 주식시장 강세로 투자 쪽 관심이 커져 보험 탐색이 줄었다 / 하방 / 중 / 연금저축,,,,
+event_row,monthly_events.csv,2022-10-시장 자금 이동,2022,10,1,event_row,2022년 10월 시장 자금 이동 / 금리 하락 기대가 커지며 연금형 문의가 늘었다 / 상방 / 중 / 연금저축,,,,
+event_row,monthly_events.csv,2022-11-시장 자금 이동,2022,11,1,event_row,2022년 11월 시장 자금 이동 / 예금 선호가 살아나면서 저축성 문의가 반짝 증가했다 / 상방 / 약 / 연금저축,,,,
+event_row,monthly_events.csv,2022-12-시장 자금 이동,2022,12,1,event_row,2022년 12월 시장 자금 이동 / 투자형 자산 쏠림이 강해져 보험 상담 우선순위가 낮아졌다 / 하방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2023-01-경쟁사 공격,2023,1,1,event_row,2023년 1월 경쟁사 공격 / 경쟁사가 목적종신 중심 리워드를 집중 전개해 종신 유입이 흔들렸다 / 하방 / 강 / 종신,,,,
+event_row,monthly_events.csv,2023-02-경쟁사 공격,2023,2,1,event_row,2023년 2월 경쟁사 공격 / 경쟁사가 건강형 온라인 캠페인을 넓혀 디지털 문의를 빼앗았다 / 하방 / 중 / 디지털,,,,
+event_row,monthly_events.csv,2023-03-경쟁사 공격,2023,3,1,event_row,2023년 3월 경쟁사 공격 / 경쟁사 교육 일정이 몰리며 GA 채널에서 경쟁사 쏠림이 생겼다 / 하방 / 중 / GA,,,,
+event_row,monthly_events.csv,2023-04-경쟁사 공격,2023,4,1,event_row,2023년 4월 경쟁사 공격 / 경쟁사가 고연령 대상 특화 상품을 밀어 시니어 문의가 분산되었다 / 하방 / 중 / 건강,,,,
+event_row,monthly_events.csv,2023-05-계절성,2023,5,1,event_row,2023년 5월 계절성 / 설 연휴 전후로 업무일이 짧아져 월초 실적이 눌렸다 / 하방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2023-06-계절성,2023,6,1,event_row,2023년 6월 계절성 / 여름 휴가철 영향으로 대면 미팅이 줄어 FC 반응이 약해졌다 / 하방 / 중 / FC,,,,
+event_row,monthly_events.csv,2023-07-계절성,2023,7,1,event_row,2023년 7월 계절성 / 연말 마감 집중으로 월말 물량이 예상보다 크게 몰렸다 / 상방 / 강 / 전체,,,,
+event_row,monthly_events.csv,2023-08-계절성,2023,8,1,event_row,2023년 8월 계절성 / 세무·정산 일정과 겹쳐 상담 일정이 뒤로 밀렸다 / 하방 / 약 / GA,,,,
+event_row,monthly_events.csv,2023-09-내부 운영,2023,9,1,event_row,2023년 9월 내부 운영 / 신상품 안내자료가 바뀌며 건강형 설명 품질이 올라갔다 / 상방 / 중 / 건강,,,,
+event_row,monthly_events.csv,2023-10-내부 운영,2023,10,1,event_row,"2023년 10월 내부 운영 / 교육 자료가 늦어져 일부 채널의 첫 반응이 약했다 / 하방 / 중 / FC, GA",,,,
+event_row,monthly_events.csv,2023-11-내부 운영,2023,11,1,event_row,2023년 11월 내부 운영 / 판촉비 집행이 앞당겨져 월초 문의가 먼저 늘었다 / 상방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2023-12-내부 운영,2023,12,1,event_row,2023년 12월 내부 운영 / 콜백 대응 속도가 빨라져 디지털 전환율이 개선되었다 / 상방 / 약 / 디지털,,,,
+event_row,monthly_events.csv,2024-01-채널특이,2024,1,1,event_row,2024년 1월 채널특이 / FC 실적이 점포 단위로 고르게 퍼지며 변동성이 줄었다 / 상방 / 약 / FC,,,,
+event_row,monthly_events.csv,2024-02-채널특이,2024,2,1,event_row,2024년 2월 채널특이 / GA의 대형 거래가 한 번에 몰려 월간 흐름이 흔들렸다 / 상방 / 중 / GA,,,,
+event_row,monthly_events.csv,2024-03-채널특이,2024,3,1,event_row,2024년 3월 채널특이 / AFC에서 고액 계약이 몇 건 지연되며 마감이 약했다 / 하방 / 중 / AFC,,,,
+event_row,monthly_events.csv,2024-04-채널특이,2024,4,1,event_row,2024년 4월 채널특이 / 금융서비스 채널의 연계 상담이 늘어 보조 유입이 커졌다 / 상방 / 약 / 금융서비스,,,,
+event_row,monthly_events.csv,2024-05-채널특이,2024,5,1,event_row,"2024년 5월 채널특이 / 디지털에서 저관여 문의가 늘고, 종신 전환은 낮게 유지되었다 / 상방 / 약 / 디지털",,,,
+event_row,monthly_events.csv,2024-06-채널특이,2024,6,1,event_row,2024년 6월 채널특이 / 신채널이 특정 상품군 중심으로만 움직여 구성 편차가 커졌다 / 중립 / 약 / 신채널,,,,
+event_row,monthly_events.csv,2024-07-거시/사회,2024,7,1,event_row,2024년 7월 거시/사회 / 소비자 물가 부담이 늘어 장기계약 검토가 신중해졌다 / 하방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2024-08-시장 자금 이동,2024,8,1,event_row,2024년 8월 시장 자금 이동 / 주가 급등 이후 차익 실현 자금이 일부 보험 상담으로 돌아왔다 / 상방 / 중 / 연금저축,,,,
+event_row,monthly_events.csv,2024-09-제도/규제,2024,9,1,event_row,"2024년 9월 제도/규제 / 안내 절차 강화로 첫 상담 후 재접촉 간격이 길어졌다 / 하방 / 중 / FC, GA",,,,
+event_row,monthly_events.csv,2024-10-경쟁사 공격,2024,10,1,event_row,2024년 10월 경쟁사 공격 / 경쟁사가 연금성 프로모션을 장기화해 저축성 문의가 분산되었다 / 하방 / 중 / 연금저축,,,,
+event_row,monthly_events.csv,2024-11-계절성,2024,11,1,event_row,2024년 11월 계절성 / 입학·이사 시즌이 겹치며 가족형 문의가 소폭 늘었다 / 상방 / 약 / 건강,,,,
+event_row,monthly_events.csv,2024-12-계절성,2024,12,1,event_row,2024년 12월 계절성 / 장마철에 외부 이동이 줄어 방문 상담이 감소했다 / 하방 / 약 / FC,,,,
+event_row,monthly_events.csv,2025-01-내부 운영,2025,1,1,event_row,2025년 1월 내부 운영 / 현장 보고 주기가 짧아져 월중 중간 점검이 활발해졌다 / 상방 / 약 / 전체,,,,
+event_row,monthly_events.csv,2025-02-내부 운영,2025,2,1,event_row,2025년 2월 내부 운영 / 상품 설명 스크립트가 간소화되어 상담 소요 시간이 줄었다 / 상방 / 약 / 전체,,,,
+event_row,monthly_events.csv,2025-03-거시/사회,2025,3,1,event_row,2025년 3월 거시/사회 / 소득 전망이 불안해지며 신규 계약보다 유지 상담이 많아졌다 / 하방 / 중 / 종신,,,,
+event_row,monthly_events.csv,2025-04-시장 자금 이동,2025,4,1,event_row,2025년 4월 시장 자금 이동 / 배당 기대가 높아지며 보험보다 금융상품 비교가 늘었다 / 하방 / 중 / 연금저축,,,,
+event_row,monthly_events.csv,2025-05-경쟁사 공격,2025,5,1,event_row,2025년 5월 경쟁사 공격 / 경쟁사가 건강형 신상품을 내세워 초회 문의를 빠르게 흡수했다 / 하방 / 중 / 건강,,,,
+event_row,monthly_events.csv,2025-06-경쟁사 공격,2025,6,1,event_row,2025년 6월 경쟁사 공격 / 경쟁사의 오프라인 설명회가 늘어 종신형 문의가 쏠렸다 / 하방 / 중 / 종신,,,,
+event_row,monthly_events.csv,2025-07-채널특이,2025,7,1,event_row,2025년 7월 채널특이 / 금융서비스 채널의 연계 자산 고객이 늘어 보완 판매가 쉬워졌다 / 상방 / 약 / 금융서비스,,,,
+event_row,monthly_events.csv,2025-08-채널특이,2025,8,1,event_row,2025년 8월 채널특이 / AFC에서 고액 유지고객 상담이 몰려 평균 계약 규모가 커졌다 / 상방 / 중 / AFC,,,,
+event_row,monthly_events.csv,2025-09-채널특이,2025,9,1,event_row,2025년 9월 채널특이 / 신채널이 특정 월에만 강하게 움직여 흐름이 들쭉날쭉했다 / 중립 / 약 / 신채널,,,,
+event_row,monthly_events.csv,2025-10-제도/규제,2025,10,1,event_row,2025년 10월 제도/규제 / 사전고지 강화로 신규 문의는 줄었지만 품질은 좋아졌다 / 하방 / 약 / 전체,,,,
+event_row,monthly_events.csv,2025-11-거시/사회,2025,11,1,event_row,2025년 11월 거시/사회 / 가계의 불확실성이 커져 설계 상담이 보수적으로 바뀌었다 / 하방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2025-12-내부 운영,2025,12,1,event_row,2025년 12월 내부 운영 / 월말 마감 독려 메시지가 늘어 후반부 실적이 올라갔다 / 상방 / 중 / 전체,,,,
+event_row,monthly_events.csv,2026-01-내부 운영,2026,1,1,event_row,2026년 1월 내부 운영 / 교육과 점검이 동시에 진행돼 월중 리듬이 흔들렸다 / 하방 / 약 / 전체,,,,
+event_row,monthly_events.csv,2026-02-계절성,2026,2,1,event_row,2026년 2월 계절성 / 명절 직전 선물성 문의가 늘어 단기 상담이 증가했다 / 상방 / 약 / 건강,,,,
+event_row,monthly_events.csv,2026-03-계절성,2026,3,1,event_row,2026년 3월 계절성 / 명절 직후 휴식 영향으로 초반 유입이 잠시 줄었다 / 하방 / 약 / 전체,,,,
+event_row,monthly_events.csv,2026-04-시장 자금 이동,2026,4,1,event_row,2026년 4월 시장 자금 이동 / 안전자산 선호가 강해지며 보험성 검토가 소폭 늘었다 / 상방 / 약 / 종신,,,,
+event_row,monthly_events.csv,2026-05-제도/규제,2026,5,1,event_row,2026년 5월 제도/규제 / GA 1200%룰 도래에 따른 13차월 이연 시책 경쟁으로 당사 유입물량이 약해졌다 / 하방 / 강 / 전체,,,,
+product_row,special_products.csv,2022-01-가칭신상품_202201_순수형,2022,1,1,product_row,2022년 1월 가칭신상품_202201_순수형 순수형 건강 순수형 8.1,,,,
+product_row,special_products.csv,2022-01-더퍼스트_순수형,2022,1,1,product_row,2022년 1월 더퍼스트_순수형 순수형 건강 순수형 4.7,,,,
+product_row,special_products.csv,2022-01-플러스원_20년_목적종신,2022,1,1,product_row,2022년 1월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.3,,,,
+product_row,special_products.csv,2022-01-플러스원_20년_일반종신,2022,1,1,product_row,2022년 1월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.8,,,,
+product_row,special_products.csv,2022-02-가칭신상품_202202_환급형,2022,2,1,product_row,2022년 2월 가칭신상품_202202_환급형 환급형 건강 환급형 6.5,,,,
+product_row,special_products.csv,2022-02-더퍼스트_순수형,2022,2,1,product_row,2022년 2월 더퍼스트_순수형 순수형 건강 순수형 4.9,,,,
+product_row,special_products.csv,2022-02-플러스원_20년_목적종신,2022,2,1,product_row,2022년 2월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.4,,,,
+product_row,special_products.csv,2022-02-플러스원_20년_일반종신,2022,2,1,product_row,2022년 2월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2022-03-가칭신상품_202203_특화형,2022,3,1,product_row,2022년 3월 가칭신상품_202203_특화형 특화형 건강 특화형 7.7,,,,
+product_row,special_products.csv,2022-03-더퍼스트_순수형,2022,3,1,product_row,2022년 3월 더퍼스트_순수형 순수형 건강 순수형 3.8,,,,
+product_row,special_products.csv,2022-03-플러스원_20년_목적종신,2022,3,1,product_row,2022년 3월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.3,,,,
+product_row,special_products.csv,2022-03-플러스원_20년_일반종신,2022,3,1,product_row,2022년 3월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.8,,,,
+product_row,special_products.csv,2022-04-가칭신상품_202204_목적종신,2022,4,1,product_row,2022년 4월 가칭신상품_202204_목적종신 목적종신 종신 목적종신 8.3,,,,
+product_row,special_products.csv,2022-04-더퍼스트_순수형,2022,4,1,product_row,2022년 4월 더퍼스트_순수형 순수형 건강 순수형 4.3,,,,
+product_row,special_products.csv,2022-04-플러스원_20년_목적종신,2022,4,1,product_row,2022년 4월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.4,,,,
+product_row,special_products.csv,2022-04-플러스원_20년_일반종신,2022,4,1,product_row,2022년 4월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2022-05-가칭신상품_202205_순수형,2022,5,1,product_row,2022년 5월 가칭신상품_202205_순수형 순수형 건강 순수형 8.6,,,,
+product_row,special_products.csv,2022-05-더퍼스트_순수형,2022,5,1,product_row,2022년 5월 더퍼스트_순수형 순수형 건강 순수형 4.6,,,,
+product_row,special_products.csv,2022-05-플러스원_20년_목적종신,2022,5,1,product_row,2022년 5월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.6,,,,
+product_row,special_products.csv,2022-05-플러스원_20년_일반종신,2022,5,1,product_row,2022년 5월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2022-06-가칭신상품_202206_환급형,2022,6,1,product_row,2022년 6월 가칭신상품_202206_환급형 환급형 건강 환급형 6.8,,,,
+product_row,special_products.csv,2022-06-더퍼스트_순수형,2022,6,1,product_row,2022년 6월 더퍼스트_순수형 순수형 건강 순수형 4.8,,,,
+product_row,special_products.csv,2022-06-플러스원_20년_목적종신,2022,6,1,product_row,2022년 6월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.1,,,,
+product_row,special_products.csv,2022-06-플러스원_20년_일반종신,2022,6,1,product_row,2022년 6월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.8,,,,
+product_row,special_products.csv,2022-07-가칭신상품_202207_특화형,2022,7,1,product_row,2022년 7월 가칭신상품_202207_특화형 특화형 건강 특화형 7.3,,,,
+product_row,special_products.csv,2022-07-더퍼스트_순수형,2022,7,1,product_row,2022년 7월 더퍼스트_순수형 순수형 건강 순수형 5.2,,,,
+product_row,special_products.csv,2022-07-플러스원_20년_목적종신,2022,7,1,product_row,2022년 7월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.4,,,,
+product_row,special_products.csv,2022-07-플러스원_20년_일반종신,2022,7,1,product_row,2022년 7월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.8,,,,
+product_row,special_products.csv,2022-08-가칭신상품_202208_일반종신,2022,8,1,product_row,2022년 8월 가칭신상품_202208_일반종신 일반종신 종신 일반종신 7.6,,,,
+product_row,special_products.csv,2022-08-더퍼스트_순수형,2022,8,1,product_row,2022년 8월 더퍼스트_순수형 순수형 건강 순수형 3.5,,,,
+product_row,special_products.csv,2022-08-플러스원_20년_목적종신,2022,8,1,product_row,2022년 8월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.4,,,,
+product_row,special_products.csv,2022-08-플러스원_20년_일반종신,2022,8,1,product_row,2022년 8월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2022-09-가칭신상품_202209_순수형,2022,9,1,product_row,2022년 9월 가칭신상품_202209_순수형 순수형 건강 순수형 8.5,,,,
+product_row,special_products.csv,2022-09-더퍼스트_순수형,2022,9,1,product_row,2022년 9월 더퍼스트_순수형 순수형 건강 순수형 4.1,,,,
+product_row,special_products.csv,2022-09-플러스원_20년_목적종신,2022,9,1,product_row,2022년 9월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.2,,,,
+product_row,special_products.csv,2022-09-플러스원_20년_일반종신,2022,9,1,product_row,2022년 9월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.8,,,,
+product_row,special_products.csv,2022-10-가칭신상품_202210_환급형,2022,10,1,product_row,2022년 10월 가칭신상품_202210_환급형 환급형 건강 환급형 7.4,,,,
+product_row,special_products.csv,2022-10-더퍼스트_순수형,2022,10,1,product_row,2022년 10월 더퍼스트_순수형 순수형 건강 순수형 4.8,,,,
+product_row,special_products.csv,2022-10-플러스원_20년_목적종신,2022,10,1,product_row,2022년 10월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.5,,,,
+product_row,special_products.csv,2022-10-플러스원_20년_일반종신,2022,10,1,product_row,2022년 10월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2022-11-가칭신상품_202211_특화형,2022,11,1,product_row,2022년 11월 가칭신상품_202211_특화형 특화형 건강 특화형 7.9,,,,
+product_row,special_products.csv,2022-11-더퍼스트_순수형,2022,11,1,product_row,2022년 11월 더퍼스트_순수형 순수형 건강 순수형 5.2,,,,
+product_row,special_products.csv,2022-11-플러스원_20년_목적종신,2022,11,1,product_row,2022년 11월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.7,,,,
+product_row,special_products.csv,2022-11-플러스원_20년_일반종신,2022,11,1,product_row,2022년 11월 플러스원_20년_일반종신 일반종신 종신 일반종신 1,,,,
+product_row,special_products.csv,2022-12-가칭신상품_202212_목적종신,2022,12,1,product_row,2022년 12월 가칭신상품_202212_목적종신 목적종신 종신 목적종신 8.9,,,,
+product_row,special_products.csv,2022-12-더퍼스트_순수형,2022,12,1,product_row,2022년 12월 더퍼스트_순수형 순수형 건강 순수형 5.9,,,,
+product_row,special_products.csv,2022-12-플러스원_20년_목적종신,2022,12,1,product_row,2022년 12월 플러스원_20년_목적종신 목적종신 종신 목적종신 2.4,,,,
+product_row,special_products.csv,2022-12-플러스원_20년_일반종신,2022,12,1,product_row,2022년 12월 플러스원_20년_일반종신 일반종신 종신 일반종신 0.9,,,,
+product_row,special_products.csv,2023-01-가칭신상품_202301_순수형,2023,1,1,product_row,2023년 1월 가칭신상품_202301_순수형 순수형 건강 순수형 10.4,,,,
+product_row,special_products.csv,2023-01-더퍼스트_순수형,2023,1,1,product_row,2023년 1월 더퍼스트_순수형 순수형 건강 순수형 7.9,,,,
+product_row,special_products.csv,2023-01-플러스원_20년_목적종신,2023,1,1,product_row,2023년 1월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.8,,,,
+product_row,special_products.csv,2023-01-플러스원_20년_일반종신,2023,1,1,product_row,2023년 1월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2023-02-가칭신상품_202302_환급형,2023,2,1,product_row,2023년 2월 가칭신상품_202302_환급형 환급형 건강 환급형 10.9,,,,
+product_row,special_products.csv,2023-02-더퍼스트_순수형,2023,2,1,product_row,2023년 2월 더퍼스트_순수형 순수형 건강 순수형 5.5,,,,
+product_row,special_products.csv,2023-02-플러스원_20년_목적종신,2023,2,1,product_row,2023년 2월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.2,,,,
+product_row,special_products.csv,2023-02-플러스원_20년_일반종신,2023,2,1,product_row,2023년 2월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.1,,,,
+product_row,special_products.csv,2023-03-가칭신상품_202303_특화형,2023,3,1,product_row,2023년 3월 가칭신상품_202303_특화형 특화형 건강 특화형 12.5,,,,
+product_row,special_products.csv,2023-03-더퍼스트_순수형,2023,3,1,product_row,2023년 3월 더퍼스트_순수형 순수형 건강 순수형 6.4,,,,
+product_row,special_products.csv,2023-03-플러스원_20년_목적종신,2023,3,1,product_row,2023년 3월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.7,,,,
+product_row,special_products.csv,2023-03-플러스원_20년_일반종신,2023,3,1,product_row,2023년 3월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2023-04-가칭신상품_202304_일반종신,2023,4,1,product_row,2023년 4월 가칭신상품_202304_일반종신 일반종신 종신 일반종신 13.7,,,,
+product_row,special_products.csv,2023-04-더퍼스트_순수형,2023,4,1,product_row,2023년 4월 더퍼스트_순수형 순수형 건강 순수형 7.3,,,,
+product_row,special_products.csv,2023-04-플러스원_20년_목적종신,2023,4,1,product_row,2023년 4월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.1,,,,
+product_row,special_products.csv,2023-04-플러스원_20년_일반종신,2023,4,1,product_row,2023년 4월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.5,,,,
+product_row,special_products.csv,2023-05-가칭신상품_202305_순수형,2023,5,1,product_row,2023년 5월 가칭신상품_202305_순수형 순수형 건강 순수형 10.7,,,,
+product_row,special_products.csv,2023-05-더퍼스트_순수형,2023,5,1,product_row,2023년 5월 더퍼스트_순수형 순수형 건강 순수형 7.5,,,,
+product_row,special_products.csv,2023-05-플러스원_20년_목적종신,2023,5,1,product_row,2023년 5월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.4,,,,
+product_row,special_products.csv,2023-05-플러스원_20년_일반종신,2023,5,1,product_row,2023년 5월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2023-06-가칭신상품_202306_환급형,2023,6,1,product_row,2023년 6월 가칭신상품_202306_환급형 환급형 건강 환급형 11.4,,,,
+product_row,special_products.csv,2023-06-더퍼스트_순수형,2023,6,1,product_row,2023년 6월 더퍼스트_순수형 순수형 건강 순수형 8.1,,,,
+product_row,special_products.csv,2023-06-플러스원_20년_목적종신,2023,6,1,product_row,2023년 6월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2023-06-플러스원_20년_일반종신,2023,6,1,product_row,2023년 6월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2023-07-가칭신상품_202307_특화형,2023,7,1,product_row,2023년 7월 가칭신상품_202307_특화형 특화형 건강 특화형 11.9,,,,
+product_row,special_products.csv,2023-07-더퍼스트_순수형,2023,7,1,product_row,2023년 7월 더퍼스트_순수형 순수형 건강 순수형 5.6,,,,
+product_row,special_products.csv,2023-07-플러스원_20년_목적종신,2023,7,1,product_row,2023년 7월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.8,,,,
+product_row,special_products.csv,2023-07-플러스원_20년_일반종신,2023,7,1,product_row,2023년 7월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2023-08-가칭신상품_202308_목적종신,2023,8,1,product_row,2023년 8월 가칭신상품_202308_목적종신 목적종신 종신 목적종신 12.5,,,,
+product_row,special_products.csv,2023-08-더퍼스트_순수형,2023,8,1,product_row,2023년 8월 더퍼스트_순수형 순수형 건강 순수형 6.1,,,,
+product_row,special_products.csv,2023-08-플러스원_20년_목적종신,2023,8,1,product_row,2023년 8월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.3,,,,
+product_row,special_products.csv,2023-08-플러스원_20년_일반종신,2023,8,1,product_row,2023년 8월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.1,,,,
+product_row,special_products.csv,2023-09-가칭신상품_202309_순수형,2023,9,1,product_row,2023년 9월 가칭신상품_202309_순수형 순수형 건강 순수형 10.8,,,,
+product_row,special_products.csv,2023-09-더퍼스트_순수형,2023,9,1,product_row,2023년 9월 더퍼스트_순수형 순수형 건강 순수형 7,,,,
+product_row,special_products.csv,2023-09-플러스원_20년_목적종신,2023,9,1,product_row,2023년 9월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.7,,,,
+product_row,special_products.csv,2023-09-플러스원_20년_일반종신,2023,9,1,product_row,2023년 9월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2023-10-가칭신상품_202310_환급형,2023,10,1,product_row,2023년 10월 가칭신상품_202310_환급형 환급형 건강 환급형 12,,,,
+product_row,special_products.csv,2023-10-더퍼스트_순수형,2023,10,1,product_row,2023년 10월 더퍼스트_순수형 순수형 건강 순수형 7.9,,,,
+product_row,special_products.csv,2023-10-플러스원_20년_목적종신,2023,10,1,product_row,2023년 10월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.1,,,,
+product_row,special_products.csv,2023-10-플러스원_20년_일반종신,2023,10,1,product_row,2023년 10월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.5,,,,
+product_row,special_products.csv,2023-11-가칭신상품_202311_특화형,2023,11,1,product_row,2023년 11월 가칭신상품_202311_특화형 특화형 건강 특화형 13.1,,,,
+product_row,special_products.csv,2023-11-더퍼스트_순수형,2023,11,1,product_row,2023년 11월 더퍼스트_순수형 순수형 건강 순수형 8.7,,,,
+product_row,special_products.csv,2023-11-플러스원_20년_목적종신,2023,11,1,product_row,2023년 11월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2023-11-플러스원_20년_일반종신,2023,11,1,product_row,2023년 11월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2023-12-가칭신상품_202312_일반종신,2023,12,1,product_row,2023년 12월 가칭신상품_202312_일반종신 일반종신 종신 일반종신 14.4,,,,
+product_row,special_products.csv,2023-12-더퍼스트_순수형,2023,12,1,product_row,2023년 12월 더퍼스트_순수형 순수형 건강 순수형 6.3,,,,
+product_row,special_products.csv,2023-12-플러스원_20년_목적종신,2023,12,1,product_row,2023년 12월 플러스원_20년_목적종신 목적종신 종신 목적종신 4,,,,
+product_row,special_products.csv,2023-12-플러스원_20년_일반종신,2023,12,1,product_row,2023년 12월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2024-01-가칭신상품_202401_순수형,2024,1,1,product_row,2024년 1월 가칭신상품_202401_순수형 순수형 건강 순수형 11.5,,,,
+product_row,special_products.csv,2024-01-더퍼스트_순수형,2024,1,1,product_row,2024년 1월 더퍼스트_순수형 순수형 건강 순수형 5.8,,,,
+product_row,special_products.csv,2024-01-플러스원_20년_목적종신,2024,1,1,product_row,2024년 1월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.4,,,,
+product_row,special_products.csv,2024-01-플러스원_20년_일반종신,2024,1,1,product_row,2024년 1월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2024-02-가칭신상품_202402_환급형,2024,2,1,product_row,2024년 2월 가칭신상품_202402_환급형 환급형 건강 환급형 11.7,,,,
+product_row,special_products.csv,2024-02-더퍼스트_순수형,2024,2,1,product_row,2024년 2월 더퍼스트_순수형 순수형 건강 순수형 6.1,,,,
+product_row,special_products.csv,2024-02-플러스원_20년_목적종신,2024,2,1,product_row,2024년 2월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.5,,,,
+product_row,special_products.csv,2024-02-플러스원_20년_일반종신,2024,2,1,product_row,2024년 2월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2024-03-가칭신상품_202403_특화형,2024,3,1,product_row,2024년 3월 가칭신상품_202403_특화형 특화형 건강 특화형 13.7,,,,
+product_row,special_products.csv,2024-03-더퍼스트_순수형,2024,3,1,product_row,2024년 3월 더퍼스트_순수형 순수형 건강 순수형 7.3,,,,
+product_row,special_products.csv,2024-03-플러스원_20년_목적종신,2024,3,1,product_row,2024년 3월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.1,,,,
+product_row,special_products.csv,2024-03-플러스원_20년_일반종신,2024,3,1,product_row,2024년 3월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.5,,,,
+product_row,special_products.csv,2024-04-가칭신상품_202404_목적종신,2024,4,1,product_row,2024년 4월 가칭신상품_202404_목적종신 목적종신 종신 목적종신 11.3,,,,
+product_row,special_products.csv,2024-04-더퍼스트_순수형,2024,4,1,product_row,2024년 4월 더퍼스트_순수형 순수형 건강 순수형 7.9,,,,
+product_row,special_products.csv,2024-04-플러스원_20년_목적종신,2024,4,1,product_row,2024년 4월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2024-04-플러스원_20년_일반종신,2024,4,1,product_row,2024년 4월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2024-05-가칭신상품_202405_순수형,2024,5,1,product_row,2024년 5월 가칭신상품_202405_순수형 순수형 건강 순수형 11.9,,,,
+product_row,special_products.csv,2024-05-더퍼스트_순수형,2024,5,1,product_row,2024년 5월 더퍼스트_순수형 순수형 건강 순수형 8.4,,,,
+product_row,special_products.csv,2024-05-플러스원_20년_목적종신,2024,5,1,product_row,2024년 5월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.8,,,,
+product_row,special_products.csv,2024-05-플러스원_20년_일반종신,2024,5,1,product_row,2024년 5월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2024-06-가칭신상품_202406_환급형,2024,6,1,product_row,2024년 6월 가칭신상품_202406_환급형 환급형 건강 환급형 12.3,,,,
+product_row,special_products.csv,2024-06-더퍼스트_순수형,2024,6,1,product_row,2024년 6월 더퍼스트_순수형 순수형 건강 순수형 5.7,,,,
+product_row,special_products.csv,2024-06-플러스원_20년_목적종신,2024,6,1,product_row,2024년 6월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.9,,,,
+product_row,special_products.csv,2024-06-플러스원_20년_일반종신,2024,6,1,product_row,2024년 6월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2024-07-가칭신상품_202407_특화형,2024,7,1,product_row,2024년 7월 가칭신상품_202407_특화형 특화형 건강 특화형 13.1,,,,
+product_row,special_products.csv,2024-07-더퍼스트_순수형,2024,7,1,product_row,2024년 7월 더퍼스트_순수형 순수형 건강 순수형 6.4,,,,
+product_row,special_products.csv,2024-07-플러스원_20년_목적종신,2024,7,1,product_row,2024년 7월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.4,,,,
+product_row,special_products.csv,2024-07-플러스원_20년_일반종신,2024,7,1,product_row,2024년 7월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2024-08-가칭신상품_202408_일반종신,2024,8,1,product_row,2024년 8월 가칭신상품_202408_일반종신 일반종신 종신 일반종신 10.6,,,,
+product_row,special_products.csv,2024-08-더퍼스트_순수형,2024,8,1,product_row,2024년 8월 더퍼스트_순수형 순수형 건강 순수형 6.9,,,,
+product_row,special_products.csv,2024-08-플러스원_20년_목적종신,2024,8,1,product_row,2024년 8월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2024-08-플러스원_20년_일반종신,2024,8,1,product_row,2024년 8월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2024-09-가칭신상품_202409_순수형,2024,9,1,product_row,2024년 9월 가칭신상품_202409_순수형 순수형 건강 순수형 11.7,,,,
+product_row,special_products.csv,2024-09-더퍼스트_순수형,2024,9,1,product_row,2024년 9월 더퍼스트_순수형 순수형 건강 순수형 7.7,,,,
+product_row,special_products.csv,2024-09-플러스원_20년_목적종신,2024,9,1,product_row,2024년 9월 플러스원_20년_목적종신 목적종신 종신 목적종신 4,,,,
+product_row,special_products.csv,2024-09-플러스원_20년_일반종신,2024,9,1,product_row,2024년 9월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2024-10-가칭신상품_202410_환급형,2024,10,1,product_row,2024년 10월 가칭신상품_202410_환급형 환급형 건강 환급형 13.3,,,,
+product_row,special_products.csv,2024-10-더퍼스트_순수형,2024,10,1,product_row,2024년 10월 더퍼스트_순수형 순수형 건강 순수형 8.8,,,,
+product_row,special_products.csv,2024-10-플러스원_20년_목적종신,2024,10,1,product_row,2024년 10월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2024-10-플러스원_20년_일반종신,2024,10,1,product_row,2024년 10월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2024-11-가칭신상품_202411_특화형,2024,11,1,product_row,2024년 11월 가칭신상품_202411_특화형 특화형 건강 특화형 14.1,,,,
+product_row,special_products.csv,2024-11-더퍼스트_순수형,2024,11,1,product_row,2024년 11월 더퍼스트_순수형 순수형 건강 순수형 6.2,,,,
+product_row,special_products.csv,2024-11-플러스원_20년_목적종신,2024,11,1,product_row,2024년 11월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.9,,,,
+product_row,special_products.csv,2024-11-플러스원_20년_일반종신,2024,11,1,product_row,2024년 11월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2024-12-가칭신상품_202412_목적종신,2024,12,1,product_row,2024년 12월 가칭신상품_202412_목적종신 목적종신 종신 목적종신 12.2,,,,
+product_row,special_products.csv,2024-12-더퍼스트_순수형,2024,12,1,product_row,2024년 12월 더퍼스트_순수형 순수형 건강 순수형 7.2,,,,
+product_row,special_products.csv,2024-12-플러스원_20년_목적종신,2024,12,1,product_row,2024년 12월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.5,,,,
+product_row,special_products.csv,2024-12-플러스원_20년_일반종신,2024,12,1,product_row,2024년 12월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.6,,,,
+product_row,special_products.csv,2025-01-가칭신상품_202501_순수형,2025,1,1,product_row,2025년 1월 가칭신상품_202501_순수형 순수형 건강 순수형 12.5,,,,
+product_row,special_products.csv,2025-01-더퍼스트_순수형,2025,1,1,product_row,2025년 1월 더퍼스트_순수형 순수형 건강 순수형 6.4,,,,
+product_row,special_products.csv,2025-01-플러스원_20년_목적종신,2025,1,1,product_row,2025년 1월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.7,,,,
+product_row,special_products.csv,2025-01-플러스원_20년_일반종신,2025,1,1,product_row,2025년 1월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+product_row,special_products.csv,2025-02-가칭신상품_202502_환급형,2025,2,1,product_row,2025년 2월 가칭신상품_202502_환급형 환급형 건강 환급형 13,,,,
+product_row,special_products.csv,2025-02-더퍼스트_순수형,2025,2,1,product_row,2025년 2월 더퍼스트_순수형 순수형 건강 순수형 6.9,,,,
+product_row,special_products.csv,2025-02-플러스원_20년_목적종신,2025,2,1,product_row,2025년 2월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.9,,,,
+product_row,special_products.csv,2025-02-플러스원_20년_일반종신,2025,2,1,product_row,2025년 2월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2025-03-가칭신상품_202503_특화형,2025,3,1,product_row,2025년 3월 가칭신상품_202503_특화형 특화형 건강 특화형 11.4,,,,
+product_row,special_products.csv,2025-03-더퍼스트_순수형,2025,3,1,product_row,2025년 3월 더퍼스트_순수형 순수형 건강 순수형 8,,,,
+product_row,special_products.csv,2025-03-플러스원_20년_목적종신,2025,3,1,product_row,2025년 3월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2025-03-플러스원_20년_일반종신,2025,3,1,product_row,2025년 3월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2025-04-가칭신상품_202504_일반종신,2025,4,1,product_row,2025년 4월 가칭신상품_202504_일반종신 일반종신 종신 일반종신 12.6,,,,
+product_row,special_products.csv,2025-04-더퍼스트_순수형,2025,4,1,product_row,2025년 4월 더퍼스트_순수형 순수형 건강 순수형 8.9,,,,
+product_row,special_products.csv,2025-04-플러스원_20년_목적종신,2025,4,1,product_row,2025년 4월 플러스원_20년_목적종신 목적종신 종신 목적종신 4,,,,
+product_row,special_products.csv,2025-04-플러스원_20년_일반종신,2025,4,1,product_row,2025년 4월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2025-05-가칭신상품_202505_순수형,2025,5,1,product_row,2025년 5월 가칭신상품_202505_순수형 순수형 건강 순수형 12.9,,,,
+product_row,special_products.csv,2025-05-더퍼스트_순수형,2025,5,1,product_row,2025년 5월 더퍼스트_순수형 순수형 건강 순수형 6,,,,
+product_row,special_products.csv,2025-05-플러스원_20년_목적종신,2025,5,1,product_row,2025년 5월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.1,,,,
+product_row,special_products.csv,2025-05-플러스원_20년_일반종신,2025,5,1,product_row,2025년 5월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.5,,,,
+product_row,special_products.csv,2025-06-가칭신상품_202506_환급형,2025,6,1,product_row,2025년 6월 가칭신상품_202506_환급형 환급형 건강 환급형 13.6,,,,
+product_row,special_products.csv,2025-06-더퍼스트_순수형,2025,6,1,product_row,2025년 6월 더퍼스트_순수형 순수형 건강 순수형 6.6,,,,
+product_row,special_products.csv,2025-06-플러스원_20년_목적종신,2025,6,1,product_row,2025년 6월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.5,,,,
+product_row,special_products.csv,2025-06-플러스원_20년_일반종신,2025,6,1,product_row,2025년 6월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2025-07-가칭신상품_202507_특화형,2025,7,1,product_row,2025년 7월 가칭신상품_202507_특화형 특화형 건강 특화형 11.1,,,,
+product_row,special_products.csv,2025-07-더퍼스트_순수형,2025,7,1,product_row,2025년 7월 더퍼스트_순수형 순수형 건강 순수형 7.2,,,,
+product_row,special_products.csv,2025-07-플러스원_20년_목적종신,2025,7,1,product_row,2025년 7월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.8,,,,
+product_row,special_products.csv,2025-07-플러스원_20년_일반종신,2025,7,1,product_row,2025년 7월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2025-08-가칭신상품_202508_목적종신,2025,8,1,product_row,2025년 8월 가칭신상품_202508_목적종신 목적종신 종신 목적종신 11.5,,,,
+product_row,special_products.csv,2025-08-더퍼스트_순수형,2025,8,1,product_row,2025년 8월 더퍼스트_순수형 순수형 건강 순수형 7.6,,,,
+product_row,special_products.csv,2025-08-플러스원_20년_목적종신,2025,8,1,product_row,2025년 8월 플러스원_20년_목적종신 목적종신 종신 목적종신 4,,,,
+product_row,special_products.csv,2025-08-플러스원_20년_일반종신,2025,8,1,product_row,2025년 8월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2025-09-가칭신상품_202509_순수형,2025,9,1,product_row,2025년 9월 가칭신상품_202509_순수형 순수형 건강 순수형 13,,,,
+product_row,special_products.csv,2025-09-더퍼스트_순수형,2025,9,1,product_row,2025년 9월 더퍼스트_순수형 순수형 건강 순수형 8.6,,,,
+product_row,special_products.csv,2025-09-플러스원_20년_목적종신,2025,9,1,product_row,2025년 9월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.6,,,,
+product_row,special_products.csv,2025-09-플러스원_20년_일반종신,2025,9,1,product_row,2025년 9월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2025-10-가칭신상품_202510_환급형,2025,10,1,product_row,2025년 10월 가칭신상품_202510_환급형 환급형 건강 환급형 14.3,,,,
+product_row,special_products.csv,2025-10-더퍼스트_순수형,2025,10,1,product_row,2025년 10월 더퍼스트_순수형 순수형 건강 순수형 6.3,,,,
+product_row,special_products.csv,2025-10-플러스원_20년_목적종신,2025,10,1,product_row,2025년 10월 플러스원_20년_목적종신 목적종신 종신 목적종신 4,,,,
+product_row,special_products.csv,2025-10-플러스원_20년_일반종신,2025,10,1,product_row,2025년 10월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2025-11-가칭신상품_202511_특화형,2025,11,1,product_row,2025년 11월 가칭신상품_202511_특화형 특화형 건강 특화형 12,,,,
+product_row,special_products.csv,2025-11-더퍼스트_순수형,2025,11,1,product_row,2025년 11월 더퍼스트_순수형 순수형 건강 순수형 7.1,,,,
+product_row,special_products.csv,2025-11-플러스원_20년_목적종신,2025,11,1,product_row,2025년 11월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.4,,,,
+product_row,special_products.csv,2025-11-플러스원_20년_일반종신,2025,11,1,product_row,2025년 11월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.6,,,,
+product_row,special_products.csv,2025-12-가칭신상품_202512_일반종신,2025,12,1,product_row,2025년 12월 가칭신상품_202512_일반종신 일반종신 종신 일반종신 13.2,,,,
+product_row,special_products.csv,2025-12-더퍼스트_순수형,2025,12,1,product_row,2025년 12월 더퍼스트_순수형 순수형 건강 순수형 8,,,,
+product_row,special_products.csv,2025-12-플러스원_20년_목적종신,2025,12,1,product_row,2025년 12월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.9,,,,
+product_row,special_products.csv,2025-12-플러스원_20년_일반종신,2025,12,1,product_row,2025년 12월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2026-01-가칭신상품_202601_순수형,2026,1,1,product_row,2026년 1월 가칭신상품_202601_순수형 순수형 건강 순수형 14,,,,
+product_row,special_products.csv,2026-01-더퍼스트_순수형,2026,1,1,product_row,2026년 1월 더퍼스트_순수형 순수형 건강 순수형 7.4,,,,
+product_row,special_products.csv,2026-01-플러스원_20년_목적종신,2026,1,1,product_row,2026년 1월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.2,,,,
+product_row,special_products.csv,2026-01-플러스원_20년_일반종신,2026,1,1,product_row,2026년 1월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.5,,,,
+product_row,special_products.csv,2026-02-가칭신상품_202602_환급형,2026,2,1,product_row,2026년 2월 가칭신상품_202602_환급형 환급형 건강 환급형 10.9,,,,
+product_row,special_products.csv,2026-02-더퍼스트_순수형,2026,2,1,product_row,2026년 2월 더퍼스트_순수형 순수형 건강 순수형 7.7,,,,
+product_row,special_products.csv,2026-02-플러스원_20년_목적종신,2026,2,1,product_row,2026년 2월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.4,,,,
+product_row,special_products.csv,2026-02-플러스원_20년_일반종신,2026,2,1,product_row,2026년 2월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.2,,,,
+product_row,special_products.csv,2026-03-가칭신상품_202603_특화형,2026,3,1,product_row,2026년 3월 가칭신상품_202603_특화형 특화형 건강 특화형 12.8,,,,
+product_row,special_products.csv,2026-03-더퍼스트_순수형,2026,3,1,product_row,2026년 3월 더퍼스트_순수형 순수형 건강 순수형 9.1,,,,
+product_row,special_products.csv,2026-03-플러스원_20년_목적종신,2026,3,1,product_row,2026년 3월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.1,,,,
+product_row,special_products.csv,2026-03-플러스원_20년_일반종신,2026,3,1,product_row,2026년 3월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.4,,,,
+product_row,special_products.csv,2026-04-가칭신상품_202604_목적종신,2026,4,1,product_row,2026년 4월 가칭신상품_202604_목적종신 목적종신 종신 목적종신 13.8,,,,
+product_row,special_products.csv,2026-04-더퍼스트_순수형,2026,4,1,product_row,2026년 4월 더퍼스트_순수형 순수형 건강 순수형 6.4,,,,
+product_row,special_products.csv,2026-04-플러스원_20년_목적종신,2026,4,1,product_row,2026년 4월 플러스원_20년_목적종신 목적종신 종신 목적종신 4.4,,,,
+product_row,special_products.csv,2026-04-플러스원_20년_일반종신,2026,4,1,product_row,2026년 4월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.6,,,,
+product_row,special_products.csv,2026-05-가칭신상품_202605_순수형,2026,5,1,product_row,2026년 5월 가칭신상품_202605_순수형 순수형 건강 순수형 14.4,,,,
+product_row,special_products.csv,2026-05-더퍼스트_순수형,2026,5,1,product_row,2026년 5월 더퍼스트_순수형 순수형 건강 순수형 7,,,,
+product_row,special_products.csv,2026-05-플러스원_20년_목적종신,2026,5,1,product_row,2026년 5월 플러스원_20년_목적종신 목적종신 종신 목적종신 3.7,,,,
+product_row,special_products.csv,2026-05-플러스원_20년_일반종신,2026,5,1,product_row,2026년 5월 플러스원_20년_일반종신 일반종신 종신 일반종신 1.3,,,,
+markdown,AGENTS (1).md,AGENTS (1).md#1,,,1,markdown,"# AGENTS.md — 채널물량 인사이트 AI 에이전트 작업 원칙
+
+## Agent Summary
+
+### Agent 이름
+채널물량 인사이트 AI 에이전트
+
+### 문제 정의
+채널 물량 관련 숫자는 조회할 수 있지만, 여러 변수와 경쟁보험사 흐름의 영향을 함께 해석하고 다음달 전망과 보고 문장으로 연결하는 데 시간이 많이 들며 사람 경험 의존도가 높다.
+
+### 대상 사용자
+- 영업/채널 물량 담당자
+- 보고 자료를 만드는 실무 담당자
+- 경영진 또는 의사결정자
+
+### 핵심 기능 1
+`조회·설명 지원`
+- 특정 월·채널의 실적, 전월/전년 대비 흐름, 관련 이슈를 자연어로 조회한다.
+- 필요 시 경쟁보험사 주요 지표와 비교 관점을 함께 보여준다.
+- 가능한 원인 후보와 확인 포인트를 함께 제공한다.
+
+### 핵심 기능 2
+`전망·보고 지원`
+- 전사 총계 전망 범위와 중심값을 먼저 제시한다.
+- 경쟁보험사 비교 관점, 채널별 방향성, 상위 3개 영향 요인, 흔들림 조건, 보고용 문장 초안을 함께 제공한다.",,,,
+markdown,AGENTS (1).md,AGENTS (1).md#2,,,2,markdown,"### 상위 3개 영향 요인 후보군 정의
+- `추세 요인`: 최근 1~2개월 흐름, 전월/전년 대비 변화, 직전 반등·둔화 패턴
+- `상품·시책 요인`: 신상품 출시, 중점상품 운영, 시책 전개, 프로모션 강도 변화
+- `영업 캘린더 요인`: 영업일수, 월초/월말 효과, 계절성, 휴일 구조
+- `채널 현장 요인`: 채널별 대내외 이슈, 조직 분위기, 운영 변화, 현장 특이사항
+- `시장·경쟁 요인`: 시장 규모 변화, 경쟁보험사 프로모션, 경쟁사 상품 출시, 점유율 압박
+- 원칙: 위 후보군 중 해당 월 전망에 실제 영향이 큰 3개만 골라 우선순위 형태로 제시하며, 고정된 3개 항목을 항상 반복하지 않는다.
+
+### 안 만들 것
+- 임원 기대치에 맞춘 숫자 보정
+- 최종 경영 목표 수치 산정 대행
+- 영업현장 지시문 자동 발행
+- 시책 효과의 확정적 단정
+- 전면 자동 수집
+- 사람 검토 없는 공식 전망 확정
+
+### 입력 / 출력
+- 입력: 월 단위 업적 물량, 조직 효율 숫자, 시책 내용, 신상품 정보, 영업일수, 시장 규모, 채널별 특이사항, 자유 메모 3~5줄, 회의자료 요약
+- 출력: 전사 총계 전망 범위와 중심값, 상위 3개 영향 요인, 경쟁보험사 비교 관점, 채널별 방향성, 전망 흔들림 조건, 보고용 문장 초안",,,,
+markdown,AGENTS (1).md,AGENTS (1).md#3,,,3,markdown,"### 사람 승인 / 완료 정의
+- 사람 승인: 데이터 최신성은 운영 담당자가 확인하고, 총계 전망과 채널별 방향성은 실무자가 검토하며, 경영진 제출용 문안은 의사결정자 또는 보고 책임자가 최종 승인한다.
+- 완료 정의: 사용자가 자연어로 실적을 조회할 수 있고, 다음달 총계 전망과 채널별 방향성, 상위 영향 요인, 보고 초안을 받을 수 있으며, 데이터 누락이나 근거 부족 시 `추가 확인 필요` 표시가 동작하는 상태를 목표로 한다.
+
+## Context (맥락)
+삼성생명 채널 물량 관리 및 보고 지원용 내부 에이전트. 월별/주별/일별 업적 물량, 시책, 신상품, 영업일수, 시장 변수 등을 함께 참고하되, 민감 데이터와 최종 경영판단은 사람 책임 아래 다룬다.",,,,
+markdown,AGENTS (1).md,AGENTS (1).md#4,,,4,markdown,"## 데이터 우선순위
+- 우선 사용 구조화 데이터: `monthly_summary`, `main_fact`, `monthly_events`, `special_products`
+- 참조 데이터: `channel_profile`, `product_profile`
+- 총계 전망은 `monthly_summary`를 기준값으로 삼고, 경쟁보험사 비교 관점과 채널별 방향성, 원인 설명은 `main_fact + monthly_events + special_products`를 함께 사용한다
+- 검산 규칙이 맞지 않거나 최신성이 낮은 데이터는 그대로 확정값처럼 사용하지 않는다
+
+## Goal
+질문 → 관련 수치·이슈 조회 → 총계 전망 및 채널별 방향성 설명 → 보고용 초안 생성까지 지원한다. 결과는 `참고·정리·사전 점검용`이며 공식 확정치는 아니다.
+
+## WHETHER before HOW
+정말 필요한 질문인가 / 최신 데이터가 준비되어 있는가 / 민감 수치를 외부 반출 없이 처리 가능한가 / 사람 검토 없이 공식 숫자로 오해될 위험은 없는가.",,,,
+markdown,AGENTS (1).md,AGENTS (1).md#5,,,5,markdown,"## 확인 게이트 (비개발자용)
+① 조회값·전망값의 기준 시점이 표시되는가  
+② 답변에 `근거 요인`과 `확인 포인트`가 함께 있는가  
+③ 데이터 누락·근거 약함·민감 이슈일 때 `추가 확인 필요`가 표시되는가  
+④ 채널별 방향성은 제시하되, 최종 확정 판단은 사람 검토로 남기는가  
+⑤ 화면·문서·저장소에 비밀키나 불필요한 민감정보가 남지 않는가
+
+## Failure / HITL (사람이 책임)
+데이터 누락·예측 불확실성·민감 수치·공식 보고 직전 상황에서는 단정하지 않는다. 총계 전망, 채널별 설명, 보고 문장 초안은 모두 실무자 검토 후 사용하며, 중요한 숫자 변경과 대외 공유는 사람이 최종 승인한다.",,,,
+markdown,architecture (2).md,architecture (2).md#1,,,1,markdown,"# architecture.md — 입력 → 해석 → 전망 → 보고초안
+
+> `PRD.md` 기준의 MVP 동작 구조 요약. 첫 버전은 `월 단위 조회·설명`과 `전사 총계 전망 작성 지원`에 집중한다.",,,,
+markdown,architecture (2).md,architecture (2).md#2,,,2,markdown,"| 섹션 | 내용 |
+|---|---|
+| Goal | 채널 물량 관련 질문에 대해 `조회·설명 + 전사 총계 전망 + 경쟁보험사 비교 + 채널별 방향성 + 보고용 초안`을 제공한다 |
+| Input | 사용자 질문(텍스트) · `monthly_summary`(월별 총괄 요약) · `main_fact`(채널·상품 상세 팩트) · `monthly_events`(월별 이벤트/이슈) · `special_products`(신상품/중점상품) · `channel_profile` · `product_profile` · 자유 메모 3~5줄 · 회의자료 업로드 후 요약 |
+| Input Rule | 첫 버전은 비식별 또는 집계 데이터 우선 · 채널 이슈 입력 최소 항목은 `이슈 내용 / 적용 채널 / 기간 / 확신도` · 개인 식별정보와 상세 민감정보는 제외 · `monthly_summary`와 `main_fact`는 합계 검산 규칙을 먼저 통과해야 한다 |
+| Process | ① 질의 유형 분류(조회형/설명형/예측형) → ② `monthly_summary`에서 총계 기준값과 경쟁보험사 주요 지표 조회 → ③ `main_fact`에서 채널·상품 기여분 조회 → ④ `monthly_events + special_products + 자유 메모`에서 이슈, 신상품, 경쟁보험사 특이사항 근거 연결 → ⑤ 최신성·누락·합계 검산 점검 → ⑥ 전사 총계 조회값 또는 전망 범위 산출 → ⑦ 경쟁보험사 대비 관점 정리 → ⑧ 채널별 방향성 생성 → ⑨ 상위 3개 영향 요인과 흔들림 조건 정리 → ⑩ `markdown` 기준 보고용 문장 초안 구성 |
+| Logic | 출력 순서는 `전사 총계 먼저 → 경쟁보험사 비교 → 채널별 방향성 → 상위 3개 영향 요인 → 흔들림 조건 → 보고 초안`으로 설계한다 |
+| Tools | Supabase(`monthly_summary / main_fact / monthly_events / special_products / reference tables` 저장·조회) · BizRouter LLM(설명·전망·보고 문장 생성) · (선택)질의 분류기(조회형/설명형/예측형 라우팅) · 검산 로직(합계·무결성 체크) · 엑셀/회의자료 업로드 파이프라인 |
+| Output | 전사 총계 전망 범위와 중심값 · 경쟁보험사 대비 변화 또는 비교 관점 · 채널별 증가/보합/감소 방향성 · 상위 3개 영향 요인 · 전망이 상단/하단으로 흔들릴 수 있는 조건 · 보고용 서술 초안 |
+| Output Format | MVP 기본 형식은 `markdown` · 후속 확장 대상은 `json/csv/report` |
+| HITL | 데이터 최신성은 운영 담당자가 확인 · 총계 전망과 채널별 방향성은 실무자가 검토 · 경영진 제출용 문안은 의사결정자 또는 보고 책임자가 최종 승인 |
+| Failure | 데이터 최신화 누락 시 전망 중단 또는 경고 · 근거 부족 시 단정 금지 및 `추가 확인 필요` 표시 · 변수 충돌 시 복수 가능성 또는 흔들림 조건으로 제시 |
+| Out of Scope | 주별/일별 실적 분석 · 임원 보고 직전 사전 점검 로직 · `json/csv/report` 본격 지원 · 채널/상품 단위 정밀 예측 · 자동 배포 |
+| Cost | 기준 가정은 `파일럿 5~8명`, 월 사용량 `조회형 1,000회 / 예측·설명형 250회 / 임원보고 초안 40회 / 문서 적재·요약 80건`, 그리고 `검색/RAG + 요약 + 캐시` 구조 전제다. 작업별 토큰은 조회형 `입력 8k~10k / 출력 700~1,000`, 예측·설명형 `입력 15k~20k / 출력 1.5k~2k`, 임원보고 초안 `입력 25k~35k / 출력 2k~3k`, 문서 적재·요약 `입력 10k~15k / 출력 500~1,000`으로 본다. 기준 파일럿 총량은 `입력 약 1,466만 / 출력 약 168만 / 총 1,634만 토큰/월` 수준이며, 모델별 월 토큰 비용은 `GPT-5.4 mini 약 $18.6 / GPT-5.4 약 $61.9 / GPT-5.5 약 $123.8`으로 추정한다. 8개 부서 16명 파일럿은 `mini $37.2 / GPT-5.4 $123.8 / GPT-5.5 $247.6` 수준, 150명 확산은 `mini $348.8 / GPT-5.4 $1,160.6 / GPT-5.5 $2,321.3` 수준으로 본다. 다만 이 수치는 토큰/API 비용만 반영한 값이며 저장소, 검색 인프라, 모니터링, 보안 연동 비용은 별도다. 실제 비용의 핵심 변수는 모델 자체보다 `문서를 매번 얼마나 길게 넣느냐`이므로, 검색·요약·캐시 구조를 전제로 설계해야 한다 |",,,,
+markdown,architecture (2).md,architecture (2).md#3,,,3,markdown,"## 상위 3개 영향 요인 후보군 정의
+- `추세 요인`: 최근 1~2개월 추세, 전월/전년 대비 변화, 직전 반등·둔화 패턴
+- `상품·시책 요인`: 신상품 출시, 중점상품 운영, 시책 전개, 프로모션 강도 변화
+- `영업 캘린더 요인`: 영업일수, 월초/월말 구조, 계절성, 휴일 효과
+- `채널 현장 요인`: 채널별 대내외 이슈, 운영 정책 변화, 자유 메모 기반 현장 특이사항
+- `시장·경쟁 요인`: 시장 규모 변화, 경쟁보험사 프로모션, 경쟁사 상품 출시, 상대 점유율 압박
+- 선정 규칙: 모델은 후보군 전체를 검토한 뒤 해당 월 총계 전망과 채널 방향성에 가장 설명력이 큰 3개만 우선순위로 제시한다.
+- 출력 원칙: `상위 3개 영향 요인`은 고정 템플릿이 아니라 질의 시점별 동적 선정 항목이며, 필요 시 실무자가 순서를 조정하거나 교체할 수 있다.",,,,
+markdown,customer (1).md,customer (1).md#1,,,1,markdown,"# Customer — 채널물량 인사이트 AI 에이전트
+
+## ICP
+- Primary: 보험 영업조직에서 월별 채널 물량, 시책, 신상품, 영업일수, 시장 변수까지 함께 보며 `월초 전망 작성`과 `보고자료 준비`를 수행하는 실무 담당자.
+- Secondary: 전사 총계 방향을 먼저 보고, 핵심 숫자와 채널별 해석을 빠르게 확인하려는 경영진 또는 의사결정자.
+
+## 핵심 사용자 장면
+- 가장 자주 쓰는 순간은 `월초 물량 전망 작성`이다.
+- 보조 사용 장면은 `수시 조회 대응`이다.
+- `보고 직전 사전 점검`은 후순위 확장 기능으로 본다.",,,,
+markdown,customer (1).md,customer (1).md#2,,,2,markdown,"## 페르소나
+| | A. 채널 물량 담당자 | B. 보고 담당 실무자 | C. 경영진/의사결정자 |
+|---|---|---|---|
+| 핵심 고통 | 숫자는 찾을 수 있지만 의미 해석이 오래 걸림 / 여러 변수 중 무엇이 더 크게 작용했는지 판단이 어려움 / 경쟁보험사와 비교한 설명 근거가 약함 / 채널 이슈가 메모·기억에 흩어져 있음 | 총계 전망, 채널 방향성, 경쟁보험사 비교, 보고 문장을 한 번에 정리해야 함 / 상위 영향 요인을 설명 논리로 바꾸는 데 시간이 큼 | 전사 총계 방향을 먼저 보고 싶음 / 세부 원자료보다 핵심 원인, 경쟁보험사 대비 위치, 흔들림 조건을 빠르게 알고 싶음 |
+| 현재 대안 | 엑셀 수동 조회 · 회의자료 재확인 · 담당자 경험 의존 | 전월 보고서 복붙 · 수기 코멘트 작성 · 부서별 자료 재취합 | 실무자 구두 보고 · 요약본 재요청 · 추가 설명 지시 |
+| 기대 결과 | 조회값 + 흐름 해석 + 원인 후보 + 경쟁보험사 비교 포인트를 빠르게 확보 | 총계 숫자 + 채널별 방향성 + 경쟁보험사 비교 + 보고 초안을 빠르게 확보 | 총계 전망 + 상위 3개 영향 요인 + 채널별 핵심 이슈와 경쟁보험사 비교를 짧게 파악 |",,,,
+markdown,customer (1).md,customer (1).md#3,,,3,markdown,"## JTBD
+A: `이번달 물량이 왜 이런 흐름인지`를 수치와 함께 빠르게 이해하고 싶다.  
+B: `다음달 총계 전망과 채널별 방향성`을 근거 있는 보고 문장으로 빠르게 만들고 싶다.  
+C: `전사 총계가 왜 이 숫자인지`와 `어떤 조건에서 흔들릴 수 있는지`를 짧게 보고 판단하고 싶다.
+
+## 고객이 중요하게 보는 가치
+- 단순 조회보다 `의미 해석`이 더 중요하다.
+- 전망 숫자만 맞는 것이 아니라, `근거 설명이 납득 가능`해야 한다.
+- 설명 형식은 `상위 3개 영향 요인` 중심이 가장 신뢰된다.
+- 전사 총계를 먼저 제시하되, 채널별 방향성으로 풀어주는 구조가 필요하다.
+- 필요할 때는 경쟁보험사와 비교한 맥락까지 함께 보여줘야 보고 설득력이 높아진다.",,,,
+markdown,customer (1).md,customer (1).md#4,,,4,markdown,"## 상위 3개 영향 요인 후보군
+- `추세 요인`: 최근 실적 흐름, 전월/전년 대비 변화, 직전 반등·둔화 패턴
+- `상품·시책 요인`: 신상품 출시, 중점상품 운영, 시책 전개 여부와 강도
+- `영업 캘린더 요인`: 영업일수, 월초/월말 구조, 계절성, 휴일 영향
+- `채널 현장 요인`: 채널별 대내외 이슈, 운영 변화, 현장 메모 기반 특이사항
+- `시장·경쟁 요인`: 시장 규모 변화, 경쟁보험사 프로모션, 경쟁사 상품 출시, 상대 점유율 압박
+- 고객 기대: 이 중 그 달에 가장 영향이 큰 3개를 뽑아 `왜 이번달이 이 숫자인지` 설명해주는 방식이 가장 설득력 있다.
+
+## 입력 현실
+- 정량 데이터는 월 단위 집계 기준으로 우선 활용한다.
+- 채널별 대내외 이슈는 `자유 메모 3~5줄`과 `회의자료 업로드 후 요약`이 가장 현실적인 입력 방식이다.
+- 이슈 입력 최소 항목은 `이슈 내용`, `적용 채널`, `기간`, `확신도`다.
+
+## 신뢰 조건
+- 사용자는 AI를 `답을 확정하는 도구`가 아니라 `판단을 돕는 도구`로 기대한다.
+- AI가 제시한 상위 영향 요인은 실무자가 수정·보완할 수 있어야 한다.
+- 총계 전망이 맞는지와 채널 방향성이 맞는지가 1차 신뢰 기준이다.",,,,
+markdown,customer (1).md,customer (1).md#5,,,5,markdown,"(※ 실제 사용자 인터뷰 또는 최근 전망/보고 사례 3건을 확보하면, 페르소나별 빈도·민감도·사용 우선순위를 더 정교하게 보강할 수 있다.)",,,,
+markdown,PRD (2).md,PRD (2).md#1,,,1,markdown,"# 채널물량 인사이트 AI 에이전트 PRD v2
+
+작성일: 2026-06-15  
+문서 상태: 보완중  
+문서 목적: 삼성생명 영업/채널 담당자가 월별 업적 물량과 관련 이슈를 더 빠르게 조회·설명하고, 이를 바탕으로 다음달 물량 전망 작성과 보고 준비를 지원하는 AI 에이전트의 첫 기획 기준을 정리한다.
+
+---
+
+## Section 1. ICP / 주요 사용자 / 페르소나
+
+### ICP
+- 삼성생명 또는 유사한 보험 영업조직에서 채널별 물량을 관리하는 영업/운영 담당 조직
+- 월별 업적 물량, 조직 효율, 시책, 신상품, CSM, 시장 규모 등 여러 데이터를 동시에 보고 판단해야 하는 조직
+- 임원/경영진 보고를 위해 숫자와 해석을 함께 빠르게 정리해야 하는 조직
+
+### 주요 사용자
+1. 영업/채널 물량 담당자
+2. 경영진 또는 의사결정자
+3. 보고 자료를 만드는 실무 담당자
+
+### 페르소나 A. 채널 물량 담당자
+- 주간/월간으로 채널별 실적과 이슈를 확인한다
+- 엑셀 수치와 회의자료/시책 문서를 함께 보며 해석한다
+- 원하는 결과:
+  - “25년 4월 물량이 얼마였지?” 같은 즉답형 조회
+  - “신상품 + 시책 전개 시 다음달 물량이 어떻게 보이냐?” 같은 근거형 예측",,,,
+markdown,PRD (2).md,PRD (2).md#2,,,2,markdown,"### 페르소나 B. 보고 담당 실무자
+- 임원/경영진 보고용 문장을 만들어야 한다
+- 숫자만이 아니라 채널별 이슈와 방향성을 설명해야 한다
+- 원하는 결과:
+  - 총계 전망 숫자
+  - 채널별 증감 방향
+  - 그렇게 본 근거와 확인 포인트
+
+### 페르소나 C. 경영진/의사결정자
+- 세부 원자료를 다 읽을 시간은 없다
+- 보고 숫자와 핵심 원인, 확인할 채널만 빠르게 보고 싶다
+
+---
+
+## Section 2. JTBD
+
+### JTBD 1
+- 월중/월말에 “현재 물량이 어디까지 왔고, 왜 이런 흐름인지”를 빠르게 이해하고 싶다
+
+### JTBD 2
+- 다음달 물량을 총계 기준으로 가능한 실제 착지에 가깝게 예측하고 싶다
+
+### JTBD 3
+- 예측 숫자를 맹신하는 것이 아니라, 근거를 바탕으로 사람이 정리·보완·보고하고 싶다
+
+### 현재 불편
+- 숫자 데이터는 비교적 정리돼 있으나 시책/이슈 정보는 흩어져 있다
+- 조회와 해석과 예측이 사람 머릿속에 의존한다
+- 보고 자료 작성에 반복 시간이 많이 든다
+- 시책 효과가 실제로 있었는지 설명할 때 방어 논리가 약하다",,,,
+markdown,PRD (2).md,PRD (2).md#3,,,3,markdown,"### 대표 업무 시나리오
+이 서비스는 크게 두 가지 방식으로 사용된다. 첫째, `조회·설명` 기능은 실무자가 필요한 수치와 흐름을 빠르게 확인하고 설명하는 기반 기능이다. 둘째, `전망·보고 지원` 기능은 그 기반 위에서 다음달 물량 전망과 보고용 정리를 돕는 핵심 가치다.
+
+#### 시나리오 1. 채널 실적 조회 및 흐름 해석
+- 경영진이나 의사결정자가 특정 월 또는 특정 채널의 실적, 전월 대비 변화, 둔화 원인 등을 수시로 묻는 상황에서 사용한다.
+- 사용자는 과거 월별 실적, 채널별 추이, 최근 시책/신상품/운영 이슈를 한 번에 확인하고 싶어 한다.
+- 에이전트는 관련 수치를 즉시 조회하고, 전월·전년 대비 흐름과 가능한 원인 후보, 추가 확인 포인트를 함께 제시한다.
+- 이 시나리오는 이후 전망 작성과 보고 준비를 가능하게 하는 기반 기능에 해당한다.",,,,
+markdown,PRD (2).md,PRD (2).md#4,,,4,markdown,"#### 시나리오 2. 월초 물량 전망 작성 지원
+- 월초에 다음달 총계 물량 전망을 작성해야 할 때 사용한다.
+- 사용자는 최근 실적, 채널별 특이사항, 시책 내용, 신상품 일정, 영업일수, 시장 변수를 함께 반영해 총계 전망과 채널별 방향성을 정리해야 한다.
+- 에이전트는 총계 전망 범위와 중심 전망치를 먼저 제시하고, 이어서 채널별 증가/보합/감소 방향성, 상위 3개 영향 요인, 불확실성, 추가 확인 포인트를 구조화해 제공한다.
+- 또한 사람이 바로 편집해 쓸 수 있는 보고용 문장 초안을 함께 제공한다.
+- 이 시나리오는 본 서비스의 핵심 가치인 `전망 작성 지원`을 대표한다.
+
+#### 시나리오 3. 임원 보고 직전 사전 점검 지원
+- 임원 또는 경영진 보고 직전에 보고 문안의 숫자와 설명이 맞는지 빠르게 점검해야 하는 상황에서 사용한다.
+- 사용자는 최신 실적 수치, 전망 근거, 전월/전년 비교 정보와 현재 작성된 보고서 초안을 함께 놓고 논리 누락이나 수치 불일치를 줄이고 싶어 한다.
+- 에이전트는 수치와 설명 간 불일치 여부, 보완이 필요한 근거 포인트, 예상 질의 항목, 수정용 요약 문장을 제시한다.
+- 이 시나리오는 단순 예측을 넘어 실제 보고 준비 품질을 높이는 확장 가치에 해당한다.
+
+---",,,,
+markdown,PRD (2).md,PRD (2).md#5,,,5,markdown,"## Section 3. 문제 정의와 제공 가치
+
+### 현재 문제
+1. 숫자 조회는 가능하지만 숫자의 의미를 붙이는 데 시간이 오래 걸린다
+2. 월별 시책/신상품/영업일수/시장 변화와 경쟁보험사 흐름이 물량에 어떤 영향을 줬는지 일관되게 설명하기 어렵다
+3. 다음달 물량 예측이 사람 경험에 크게 의존한다
+4. 보고용 설명이 사람마다 달라 일관성이 떨어진다
+
+### 제공 가치
+1. 과거 실적/효율/시책/시장 데이터를 하나의 질의 인터페이스로 통합 조회
+2. 다음달 총계 물량 전망을 숫자로 제시
+3. 채널별 방향성과 경쟁보험사 대비 관점을 함께 설명
+4. 시책 효과를 정량·정성 혼합 방식으로 추정
+5. 사람이 보고용 문장과 점검 포인트를 빠르게 정리할 수 있게 지원
+
+### 서비스 방향
+- `조회·설명`은 정확한 근거 확보를 위한 기반 기능으로 본다
+- `전망·보고 지원`은 실제 업무 가치가 드러나는 핵심 기능으로 본다
+- 즉, 먼저 정확히 찾고 설명할 수 있어야, 그 다음 전망과 보고 준비를 신뢰성 있게 지원할 수 있다고 본다",,,,
+markdown,PRD (2).md,PRD (2).md#6,,,6,markdown,"### 핵심 기능 1. 조회·설명 지원
+- 특정 월/채널의 실적, 전월/전년 대비 증감, 최근 흐름, 경쟁보험사 비교 관점과 관련 이슈를 자연어로 조회한다
+- 단순 수치 제시를 넘어서, 가능한 원인 후보와 추가 확인 포인트를 함께 제공한다
+- 이 기능은 실무자의 수기 조회와 구두 설명 준비 시간을 줄이는 기반 기능이다
+
+### 핵심 기능 2. 전망·보고 지원
+- 다음달 총계 물량 전망 범위와 중심 전망치를 제시한다
+- 경쟁보험사 대비 관점, 채널별 방향성, 상위 3개 영향 요인, 불확실성, 추가 확인 포인트를 함께 구조화한다
+- 사람이 바로 편집해 사용할 수 있는 보고용 문장 초안을 생성한다
+- 이 기능은 보고자료 작성과 보고 직전 사전 점검을 지원하는 핵심 기능이다
+
+### 핵심 가치 우선순위
+1. 이슈 설명과 점검 포인트
+2. 보고/브리핑 속도 개선
+3. 대응 실행 참고자료 제공
+4. 예측 정확도 향상
+
+단, 사용자 기대상 “웬만하면 숫자 예측이 나와야 한다”는 요구가 있으므로 설명형만으로 끝내지 않고 예측형을 포함한다.
+
+---
+
+## Section 4. 결정 옵션 및 권장 방향
+
+### 옵션 A. 조회형 에이전트만 구축
+- 장점: 구현이 가장 빠름
+- 단점: 사용자가 원하는 핵심 가치인 예측/인사이트가 약함",,,,
+markdown,PRD (2).md,PRD (2).md#7,,,7,markdown,"### 옵션 B. 예측형 에이전트만 구축
+- 장점: 임팩트가 커 보임
+- 단점: 데이터 구조화와 근거 설명이 약하면 신뢰를 잃기 쉬움
+
+### 옵션 C. 조회형 + 예측형 통합 에이전트 구축
+- 장점: 실제 사용 시나리오와 가장 잘 맞음
+- 단점: 데이터 파이프라인과 답변 정책이 더 정교해야 함
+
+### 권장 방향
+- 최종 선택: 옵션 C
+- 단, 출시 순서는 단계형으로 간다
+  - Step 1: 조회 신뢰도 확보
+  - Step 2: 설명형 인사이트 추가
+  - Step 3: 총계 숫자 예측 + 채널별 방향성 예측 추가
+
+---
+
+## Section 5. Out of Scope
+
+이번 버전에서 의식적으로 하지 않을 것:",,,,
+markdown,PRD (2).md,PRD (2).md#8,,,8,markdown,"1. 임원 기대치에 맞춘 보고용 숫자 보정
+   - 이유: 실제 착지 가능성보다 조직 기대에 맞춘 숫자를 만들기 시작하면 신뢰성이 훼손된다
+2. 최종 경영 목표 수치 산정 대행
+   - 이유: 최종 목표 설정은 AI가 아닌 책임자 판단 영역이다
+3. 영업현장 지시문 자동 발행
+   - 이유: 분석·전망 보조를 넘어 실행 지시까지 자동화하면 책임 경계가 불명확해진다
+4. 시책 효과의 인과관계를 100% 확정적으로 단정
+   - 이유: 실제 현장 변수와 외부 변수의 영향이 혼재되어 있어 과도한 확정 표현은 위험하다
+5. 메신저/메일/보고서 전부 자동 수집하는 완전 자동형 운영
+   - 이유: 초기 단계에서는 데이터 품질과 보안 통제가 우선이며, 자동 수집은 범위가 너무 크다
+6. 채널별 숫자까지 모두 ±3~5% 정밀 예측하겠다는 약속
+   - 이유: 첫 버전에서는 총계 전망과 방향성 설명 검증이 우선이며, 세부 채널 정밀도는 후속 과제다
+7. 사람 검토 없이 배포되는 공식 전망 확정 기능
+   - 이유: 공식 보고 숫자와 판단은 반드시 사람 검토와 승인 아래 관리되어야 한다",,,,
+markdown,PRD (2).md,PRD (2).md#9,,,9,markdown,"### 보류 항목
+- 채널/상품 단위 세분 전망
+  - 이유: 첫 버전에서는 총계 기준 전망과 채널 방향성의 설명 가능성을 먼저 검증해야 한다
+- 자동 수집 고도화
+  - 이유: 수집 자동화보다 입력 데이터 정의와 최신화 운영 기준을 먼저 안정화해야 한다
+- 예측 시나리오 시뮬레이션
+  - 이유: 기본 전망 정확도와 근거 설명 품질이 확보되기 전에는 복수 시나리오 기능의 효용이 낮다
+- 보고서 자동 편집/배포
+  - 이유: 사람 검토가 핵심인 단계에서 자동 배포는 운영 리스크가 크다
+
+---
+
+## Section 6. MVP 범위 / Next / Later
+
+### 범위 설정 원칙
+- 첫 버전은 `정확한 조회·설명`과 `총계 전망 작성 지원`이 실제로 동작하는지 검증하는 데 집중한다
+- 기능 수를 넓히기보다, 월 단위 집계 데이터 기준으로 신뢰도 있는 결과를 내는 것을 우선한다
+- 보고 직전 사전 점검, 다형식 출력 고도화, 세분 예측은 후속 단계에서 확장한다",,,,
+markdown,PRD (2).md,PRD (2).md#10,,,10,markdown,"### Now (MVP)
+- 데이터 입력
+  - 월 단위 업적 물량 집계 데이터
+  - 조직 효율 숫자
+  - 시책 세부내용 요약
+  - 경쟁보험사 주요 지표 및 특이사항 요약
+  - 신상품/영업일수/시장 규모 등 주요 영향 변수
+  - 채널별 특이사항 요약
+- 핵심 기능
+  - 자연어 조회
+  - 특정 월/채널 기준 조회 및 흐름 설명
+  - 다음달 총계 전망 범위와 중심값 제시
+  - 채널별 방향성 및 근거 설명
+  - `markdown` 기준 보고용 문장 초안 생성
+- 제외 범위
+  - 주별/일별 단위 분석
+  - 임원 보고 직전 사전 점검 로직
+  - `json/csv/report` 형식의 본격 산출물 지원
+  - 채널/상품 단위 정밀 예측
+
+### Next
+- 주별/일별 단위 데이터 확장
+- 임원 보고 직전 사전 점검 기능
+- `json/csv/report` 형식 고도화
+- 시책 유형별 효과 분석 리포트
+- 유사 시나리오 검색
+- 예측 오차 원인 분석
+- 사용자 피드백을 반영한 설명 품질 개선
+
+### Later
+- 자동 수집 고도화
+- 예측 시나리오 시뮬레이션
+- 채널/상품 단위 세분 전망
+- 보고서 자동 편집/배포
+
+---
+
+## Section 7. 에이전트 역할 / Primary Goal / Anti-Goals",,,,
+markdown,PRD (2).md,PRD (2).md#11,,,11,markdown,"### Role
+- 채널 물량과 관련 이슈를 통합 조회·설명하고, 이를 바탕으로 전망과 보고 준비를 지원하는 보조 에이전트
+
+### Primary Goal
+- 총계 기준 다음달 물량을 가능한 실제 착지에 가깝게 예측하고, 그 근거를 사람이 보고에 쓸 수 있는 형태로 설명한다
+
+### Secondary Goals
+1. 과거 데이터 조회 시간을 줄인다
+2. 채널별 증감 방향과 이슈를 빠르게 파악하게 한다
+3. 보고용 서술 초안을 일관되게 제공한다
+
+### Anti-Goals
+1. 임원 입맛에 맞는 숫자를 만드는 도구가 되지 않는다
+2. 근거가 약한데도 특정 시책 효과를 단정하지 않는다
+3. 최종 경영판단이나 영업 지시를 대신하지 않는다
+4. 불충분한 데이터인데도 자신감 있게 확정 수치를 말하지 않는다
+5. 입력 원천값을 임의로 수정하지 않는다
+
+---
+
+## Section 8. 입력 데이터 / 도구 / 연동
+
+### 핵심 입력 데이터
+- 업적 물량
+- 조직 효율 숫자
+- 시책 세부내용
+- 신상품 정보
+- 영업일수
+- CSM
+- 시장 규모
+- 채널별 특이사항
+
+### MVP 권장 데이터 패키지
+첫 버전은 아래와 같은 `구조화 데이터 4종 + 참조 데이터 2종` 구성을 권장한다. 실제 파일명은 바뀔 수 있지만 역할은 유지하는 것이 좋다.",,,,
+markdown,PRD (2).md,PRD (2).md#12,,,12,markdown,"1. `monthly_summary.csv`
+2. `main_fact.csv`
+3. `monthly_events.csv`
+4. `special_products.csv`
+5. `channel_profile.csv`
+6. `product_profile.csv`
+
+### 구조화 데이터 역할 정의
+| 파일 | 역할 | 설명 |
+|---|---|---|
+| `monthly_summary.csv` | 월별 총괄 요약 | 총계 전망의 기준이 되는 월 단위 집계 테이블 |
+| `main_fact.csv` | 채널·상품 상세 팩트 | 채널별 방향성과 상품별 기여를 설명하는 상세 팩트 테이블 |
+| `monthly_events.csv` | 월별 이벤트/이슈 | 시책, 시장, 경쟁사, 제도 변화 등 설명형 근거를 제공하는 이벤트 테이블 |
+| `special_products.csv` | 신상품/중점상품 관리 | 월별 신상품 또는 별도 관리 상품의 출시·운영 정보를 담는 테이블 |
+| `channel_profile.csv` | 채널 참조 정보 | 채널 정의, 채널 성격, 해석용 보조 정보 |
+| `product_profile.csv` | 상품 참조 정보 | 상품 대분류/중분류 체계와 해석용 보조 정보 |",,,,
+markdown,PRD (2).md,PRD (2).md#13,,,13,markdown,"### 권장 컬럼 구조
+#### 1. `monthly_summary.csv`
+- 연도
+- 월
+- 총 업적 물량
+- 보장 물량
+- 건강 물량
+- 종신 물량
+- 연금 물량
+- 저축 물량
+- 시장 전체 규모
+- 시장점유율
+- 경쟁사 주요 지표
+- 영업일수
+- 판촉비 총량
+- 채널합계검산
+- 상품합계검산
+- 합계차이
+
+#### 2. `main_fact.csv`
+- 연도
+- 월
+- 채널
+- 상품 대분류
+- 상품 중분류
+- 금액
+
+#### 3. `monthly_events.csv`
+- 연도
+- 월
+- 월별 계절성
+- 시장 이슈
+- 경쟁사 특이사항
+- 제도/환경 변화
+- 시책/운영 이슈
+
+#### 4. `special_products.csv`
+- 연도
+- 월
+- 월별 신상품
+- 별도 관리 상품
+- 설명 필드
+- 상품 중분류",,,,
+markdown,PRD (2).md,PRD (2).md#14,,,14,markdown,"### 입력 데이터 명세
+| 데이터 항목 | 기본 단위 | 갱신 주기 | 활용 목적 | 주의사항 |
+|---|---|---|---|---|
+| 업적 물량 | 월 단위 집계값 | 월 1회 이상 | 조회, 전월/전년 비교, 총계 전망의 기준값 | 첫 버전의 기준 데이터 |
+| 조직 효율 숫자 | 월 단위 지표 | 월 1회 이상 | 물량 변화 해석 보조 | 정의 변경 시 시계열 비교 주의 |
+| 시책 세부내용 | 월 단위 이벤트 요약 | 월 1회 또는 수시 | 물량 변화 원인 후보 설명 | 서술형 요약 기준 필요 |
+| 신상품 정보 | 출시/전개 일정 | 수시 | 전망 근거 및 설명 | 상품별 세부 성과 추정은 후속 범위 |
+| 영업일수 | 월 단위 일수 | 월 1회 | 계절성·일수 효과 반영 | 달력 기준으로 명확히 관리 |
+| CSM | 월 단위 지표 | 월 1회 | 보조 변수로 활용 | 정의와 산식 일관성 필요 |
+| 시장 규모 | 월 단위 외부/내부 집계 지표 | 월 1회 | 외부 환경 해석 보조 | 출처와 기준 시점 명시 필요 |
+| 채널별 특이사항 | 채널별 요약 메모 | 수시 | 방향성 설명, 확인 포인트 생성 | 개인 식별정보 제외 |",,,,
+markdown,PRD (2).md,PRD (2).md#15,,,15,markdown,"### 데이터 무결성 규칙
+- 총계와 채널합계, 상품합계는 서로 일치해야 한다
+- `합계차이 = 0`을 원칙으로 하며, 차이가 있으면 예측 전 검산 실패로 처리한다
+- 건강/종신/연금/저축 등 상품 대분류 합은 상위 보장/총계 구조와 맞아야 한다
+- `main_fact.csv`의 월별 채널·상품 합계는 `monthly_summary.csv`의 같은 월 총계와 교차 검증 가능해야 한다
+- 검산 실패 데이터는 그대로 예측에 사용하지 않고 `추가 확인 필요` 상태로 분리한다
+
+### 이벤트/신상품 운영 규칙
+- `monthly_events.csv`는 월별 대표 이슈를 요약하는 테이블로 운영한다
+- `special_products.csv`는 월별 신상품 또는 별도 관리 상품을 최소 1건 이상 연결할 수 있도록 설계한다
+- 채널별 현장 이슈가 별도 파일로 없더라도, `monthly_events.csv`와 자유 메모 입력을 조합해 설명 근거를 보강한다
+- 신상품 정보는 상품 중분류와 연결되어 `main_fact.csv` 또는 `product_profile.csv`와 해석상 연결될 수 있어야 한다
+
+### 입력 방식
+1. 운영자 직접 입력
+2. 기존 보고서/자료 업로드",,,,
+markdown,PRD (2).md,PRD (2).md#16,,,16,markdown,"### 이슈 입력 방식
+- 채널별 대내외 이슈는 `자유 메모 3~5줄` 입력을 기본으로 한다
+- 필요 시 회의자료 업로드 후 요약본을 함께 입력한다
+- 첫 버전에서는 아래 항목이 최소한 포함되도록 유도한다
+  - 이슈 내용
+  - 적용 채널
+  - 기간
+  - 확신도(`높음/중간/낮음`)
+
+### 데이터 사용 기준
+- 초기 버전은 내부 검토용 샘플, 비식별 처리 데이터, 또는 더미 데이터를 우선 사용한다
+- 고객 식별정보, 계약정보, 개인 민감정보, 외부 반출이 어려운 상세 원천 데이터는 직접 입력 대상으로 삼지 않는다
+- 보고/검증 목적상 필요한 경우에도 개인 단위가 아닌 집계 단위 데이터 사용을 원칙으로 한다
+- 시책, 이슈, 채널 특이사항도 개인 식별이 불가능한 수준으로 요약된 형태를 우선 사용한다
+
+### 운영 원칙
+- 시책 강도는 사람이 사전 수치화하지 않는다
+- AI가 과거 패턴과 동반 변수 변화를 함께 보고 효과를 추정한다
+- 최근 1~2년 흐름을 더 강하게 보되, 변수에 따라 장기 패턴도 참고한다
+- 채널별 대내외 이슈의 확신도는 입력자가 직접 표시한다
+- AI가 제시한 해석과 영향 요인은 실무자가 수정·보완할 수 있어야 한다
+
+### 추후 필요한 연동 후보
+- 엑셀 업로드
+- 문서 업로드
+- 저장소/DB
+- 대시보드
+
+---",,,,
+markdown,PRD (2).md,PRD (2).md#17,,,17,markdown,"## Section 9. 컨텍스트 / 메모리 설계
+
+### Working Context
+- 최근 월/주/일 데이터
+- 현재 월 진행 상황
+- 최신 시책/신상품/영업일수 정보
+
+### Long-term Context
+- 최근 5년 이력
+- 채널별 계절성
+- 과거 유사 시책/신상품 패턴
+
+### Context Weighting
+- 기본 원칙: 최근 1~2년 가중치를 더 높게 둔다
+- 단, 변수별로 장기 패턴 참고 여부를 분리한다
+  - 계절성/영업일수: 장기 패턴 가치 높음
+  - 최근 채널 분위기/시책 반응: 최근성 가치 높음
+
+---
+
+## Section 10. Trigger / 실행 흐름
+
+### Trigger
+1. 수동 질의
+2. 주간/수시 데이터 업데이트
+3. 월말/월초 전망 갱신
+
+### 실행 흐름
+1. 최신 데이터 로드
+2. 질의 유형 분류
+   - 조회형
+   - 예측형
+   - 설명형
+3. 관련 수치/문서/이슈/경쟁보험사 비교 정보 검색
+4. 총계 전망 계산
+5. 채널별 방향성 및 근거 생성
+6. 보고용 답변 구성",,,,
+markdown,PRD (2).md,PRD (2).md#18,,,18,markdown,"### 입력 / 처리 / 출력 요약
+| 구분 | 내용 |
+|---|---|
+| 입력 | 업적 물량, 조직 효율, 시책 내용, 신상품 정보, 영업일수, CSM, 시장 규모, 채널 특이사항, 사용자 질문 |
+| 처리 | 질의 유형 분류 → 관련 데이터 검색 → 최신성/누락 점검 → 조회값 계산 또는 전망 생성 → 근거 요인 정리 → 보고용 문장 구성 |
+| 출력 | 조회 답변, 전망 범위, 채널 방향성, 근거 요인, 추가 확인 포인트, 보고용 초안 |
+
+### 질의 유형 예시
+- 조회형: `25.4월 업적이 얼마였지?`
+- 예측형: `이달 신상품 출시와 시책 전개가 있으면 다음달 물량이 어떻게 될까?`
+- 설명형: `왜 이번달 채널 A 물량이 둔화됐다고 보는지 설명해줘`
+
+---
+
+## Section 11. Output Specification
+
+### 기본 답변 원칙
+- 숫자 예측은 웬만하면 제공한다
+- 단일 숫자만 던지지 않고 근거를 함께 제공한다
+- 채널별로는 방향성과 이슈를 설명한다
+- 사람이 보고용으로 바로 편집 가능한 문장 형태를 지원한다",,,,
+markdown,PRD (2).md,PRD (2).md#19,,,19,markdown,"### 기본 출력 구조
+1. 전사 총계 전망 범위와 중심 전망치
+2. 왜 이 숫자인지에 대한 상위 3개 영향 요인
+3. 경쟁보험사 대비 변화 또는 비교 관점
+4. 채널별 방향성 요약
+5. 전망이 상단/하단으로 흔들릴 수 있는 조건
+6. 보고용 문장 초안
+
+### 지원 출력 형식
+- `markdown`: 실무자 검토 및 보고 초안 작성용 기본 형식
+- `json`: 시스템 연동 또는 구조화된 결과 확인용
+- `csv`: 월별/채널별 요약 수치 다운로드용
+- `report`: 임원/경영진 보고용 요약 문안 형식
+
+### 형식별 기본 출력 정책
+- `markdown`: 전망 범위, 근거 요인, 확인 포인트를 문장 중심으로 제공한다
+- `json`: 기준 시점, 조회값/전망값, 채널별 방향성, 근거 요인, 경고 플래그를 구조화해 제공한다
+- `csv`: 숫자 요약 테이블 중심으로 제공하며, 서술형 해석은 포함하지 않는다
+- `report`: 1~2문단 분량의 간결한 보고용 서술 초안으로 제공한다
+
+### 조회형 출력 예시
+- `2025년 4월 총 업적 물량은 XXX였습니다. 주요 기여 채널은 A, B였고, 전월 대비 증감률은 YY%였습니다.`",,,,
+markdown,PRD (2).md,PRD (2).md#20,,,20,markdown,"### 예측형 출력 예시
+- `다음달 총계 물량 전망은 98~102 수준으로 봅니다. 중심 전망은 100입니다.`
+- `상위 영향 요인: ① 최근 2개월 추세 유지 ② 신상품 출시 효과 반영 ③ 시책 전개 확대`
+- `경쟁보험사 비교: 당사 총계는 방어 가능성이 높지만, 경쟁보험사 A의 프로모션 강도가 유지되면 일부 채널에서는 상대 점유율 압박이 있을 수 있습니다.`
+- `채널별 방향성:`
+  - `채널 A: 증가 가능성 높음. 신상품 반응과 시책 연계 효과 예상`
+  - `채널 B: 보합 또는 소폭 감소 가능성. 직전 반등 이후 기저효과와 운영 이슈 존재`
+- `흔들림 조건: 신상품 초기 반응이 예상보다 약하면 전망 하단에 가까워질 수 있으며, 채널 A 시책 반응이 빠르면 전망 상단에 근접할 수 있음`
+- `확인 포인트: 채널 A 초기 반응, 채널 B 시책 집행 시점, 영업일수 효과 실현 여부`
+
+### 보고용 출력 예시
+- `다음달 총계 물량은 전월 대비 소폭 증가 전망입니다. 최근 추세와 신상품 출시, 시책 전개 효과가 반영될 것으로 보입니다. 다만 채널별로는 편차가 예상되며, 채널 A는 확대 가능성이, 채널 B는 보합 가능성이 상대적으로 높습니다.`
+
+---
+
+## Section 12. 성공 지표",,,,
+markdown,PRD (2).md,PRD (2).md#21,,,21,markdown,"### 핵심 성과 지표
+1. 총계 물량 예측 오차: ±3~5% 이내
+2. 전월 대비 방향성 적중률
+3. 채널별 설명 수용도
+4. 보고자료 작성 시간 절감
+
+### 사후 검증 우선 기준
+- 1차 기준은 `총계 물량 예측 오차`와 `채널별 방향성 적중률`로 본다
+- 근거 설명의 납득 가능성과 보고자료 작성 시간 절감은 2차 품질 지표로 본다
+
+### 운영 지표
+1. 질의 응답 시간
+2. 데이터 최신화 주기
+3. 입력 누락률
+4. 예측 갱신 빈도
+5. 사용자 재사용률
+
+### 품질 지표
+1. 사용자가 “근거가 납득된다”고 평가한 비율
+2. 예측 후 사후분석에서 주요 원인 설명이 유지되는 비율",,,,
+markdown,PRD (2).md,PRD (2).md#22,,,22,markdown,"### 비용 가정
+- 기준 시나리오는 `파일럿 5~8명`, 월 사용량 `조회형 1,000회 / 예측·설명형 250회 / 임원보고 초안 40회 / 문서 적재·요약 80건`으로 본다
+- 검색/RAG, 요약, 캐시를 쓰는 전제에서 월 토큰 사용량은 `입력 약 1,466만 / 출력 약 168만 / 총 약 1,634만 토큰` 수준으로 추정한다
+- 작업별 토큰 가정은 조회형 `입력 8k~10k / 출력 700~1,000`, 예측·설명형 `입력 15k~20k / 출력 1.5k~2k`, 임원보고 초안 `입력 25k~35k / 출력 2k~3k`, 문서 적재·요약 `입력 10k~15k / 출력 500~1,000`이다
+- 모델별 월 토큰 비용은 `GPT-5.4 mini 약 $18.6`, `GPT-5.4 약 $61.9`, `GPT-5.5 약 $123.8` 수준으로 본다
+- 8개 부서 16명 파일럿은 `mini $37.2 / GPT-5.4 $123.8 / GPT-5.5 $247.6`, 150명 확산은 `mini $348.8 / GPT-5.4 $1,160.6 / GPT-5.5 $2,321.3` 수준으로 추정한다
+- 따라서 파일럿 단계에서는 토큰비 자체보다 `데이터 정리`, `입력 최신화`, `운영 검토 공수`가 더 큰 비용 변수일 가능성이 높다
+- 단, 이 수치는 토큰/API 비용만 반영한 값이며 저장소, 검색 인프라, 모니터링, 보안 연동 비용은 별도다
+- 실제 비용의 핵심 변수는 모델보다 `문서를 매번 얼마나 길게 넣느냐`이므로, 검색·요약·캐시 구조를 전제로 설계해야 한다",,,,
+markdown,PRD (2).md,PRD (2).md#23,,,23,markdown,"### 완료 정의
+- 사용자는 특정 월/채널의 실적과 전월/전년 대비 흐름을 자연어 질의로 조회할 수 있어야 한다
+- 사용자는 다음달 총계 물량 전망 범위와 중심 전망치를 받을 수 있어야 한다
+- 사용자는 채널별 방향성, 주요 근거 요인, 추가 확인 포인트를 함께 확인할 수 있어야 한다
+- 사용자는 보고용 문장 초안을 바로 편집 가능한 형태로 받을 수 있어야 한다
+- 데이터 누락, 근거 부족, 재확인 필요 상황에서는 경고 또는 `추가 확인 필요` 표시가 동작해야 한다
+
+### 초기 검증 데이터 기준
+- 정량 더미 또는 비식별 집계 데이터는 최소 100건 이상 확보한다
+- 시책/이슈/채널 특이사항과 같은 정성 데이터는 최소 20건 이상 확보한다
+- 최근 12개월 이상 흐름을 확인할 수 있는 기간 데이터가 포함되어야 한다
+- 총계 기준과 최소 3개 이상 채널 구분이 가능해야 한다
+
+---
+
+## Section 13. 핵심 가정과 검증 과제
+
+### H1. 데이터 품질 가정
+- 월별/주별/일별 + 채널별 데이터가 충분히 정리되어 있다
+- 검증 방법:
+  - 최근 12개월 데이터 샘플 점검
+  - 누락/형식 불일치 비율 측정",,,,
+markdown,PRD (2).md,PRD (2).md#24,,,24,markdown,"### H2. 시책 효과 추정 가정
+- 시책 강도를 사전 수치화하지 않아도, 동반 변수와 과거 패턴을 통해 효과를 유의미하게 추정할 수 있다
+- 검증 방법:
+  - 과거 시책 월을 뽑아 사후 설명 적합도 확인
+
+### H3. 출력 활용 가정
+- 사용자는 AI 전망을 최종 확정치가 아니라 참고·정리·보고용으로 사용할 것이다
+- 검증 방법:
+  - 실사용자 인터뷰
+  - 실제 보고자료 반영 사례 수집
+
+---
+
+## Section 14. 실패 모드 / HITL
+
+### 실패 모드
+1. 최신 데이터가 누락되었는데도 예측을 수행함
+2. 시책 효과를 다른 변수 영향과 혼동함
+3. 채널별 설명은 그럴듯하지만 총계 숫자가 크게 틀림
+4. 설명은 맞는데 수시 갱신 타이밍이 늦음
+5. 임원 기대 숫자와 다르다는 이유로 신뢰를 잃음
+
+### 대응 원칙
+1. 데이터 누락 시 경고 표시
+2. 근거 요인별 기여 설명 분리
+3. 최근성과 장기패턴 가중치를 분리 적용
+4. 총계 전망과 채널 방향성을 별도 관리
+5. “가장 가능성 높은 실제 착지 전망”이라는 역할을 명확히 유지
+
+### Human-in-the-loop
+- 최종 보고 전 사람 검토 필수
+- 중요한 숫자 변경 시 재검토 유도
+- 근거가 약한 경우 “추가 확인 필요” 표시",,,,
+markdown,PRD (2).md,PRD (2).md#25,,,25,markdown,"### 사람 승인 지점
+1. 입력 데이터 업로드 또는 갱신 완료 후, 최신성 확인은 운영 담당자가 승인한다
+2. 총계 전망과 채널별 방향성은 보고자료 반영 전 실무자가 검토한다
+3. 임원/경영진 제출용 문안은 의사결정자 또는 보고 책임자가 최종 승인한다
+4. 민감 수치, 해석 논란 가능성이 있는 이슈, 근거 부족 응답은 반드시 수동 검토 후 사용한다
+
+### 사람 개입 원칙
+- AI가 제시한 상위 3개 영향 요인은 실무자가 수정하거나 순서를 조정할 수 있어야 한다
+- AI는 판단 보조 역할이며, 최종 해석과 강조 포인트 결정은 사람이 담당한다
+
+### 판단 단계별 원칙
+- `조회 단계`: 과거 사실 조회 중심이므로 자동 응답 범위를 넓게 허용한다
+- `설명 단계`: 원인 후보와 해석은 제시할 수 있으나, 단정 표현은 피하고 확인 포인트를 함께 제공한다
+- `전망 단계`: 범위형 숫자와 근거를 제시하되, 공식 확정치로 취급하지 않는다
+- `보고 단계`: 사람의 검토와 승인을 거친 뒤에만 공식 문안에 반영한다
+
+---
+
+## Section 15. QA Pool / 검증 시나리오",,,,
+markdown,PRD (2).md,PRD (2).md#26,,,26,markdown,"### 기본 테스트 시나리오
+1. 과거 월 조회 정확도 테스트
+2. 특정 시책 월 사후 설명 테스트
+3. 월초 예측 vs 월말 실제치 비교 테스트
+4. 채널별 방향성 적중 테스트
+5. 동일 질의 반복 시 일관성 테스트
+
+### 적대적 질문 예시
+1. `근거가 약한데도 왜 증가라고 봤지?`
+2. `이 수치는 신상품 때문이 아니라 영업일수 때문 아닌가?`
+3. `최근 2년만 보면 감소인데 왜 장기 패턴을 반영했지?`
+4. `채널 B 전망이 보수적인데 어떤 데이터를 봤나?`
+
+### 첫 파일럿 기준
+- 특정 1개 연도 + 1개 대분류/채널군
+- 최근 데이터 중심으로 학습/검증
+- 총계 예측 정확도와 채널 설명력을 우선 검증
+
+---
+
+## Section 16. 구현 인계 메모
+
+### 구현 시 우선순위
+1. 조회형 응답의 정확도와 기준 시점 표시를 먼저 안정화한다
+2. 그 다음 총계 전망 범위와 채널 방향성 출력을 붙인다
+3. 마지막으로 보고용 문장 초안과 사전 점검 로직을 추가한다",,,,
+markdown,PRD (2).md,PRD (2).md#27,,,27,markdown,"### 구현 메모
+- 첫 버전은 `조회·설명`을 기반 기능으로, `전망·보고 지원`을 핵심 가치로 구현한다
+- 모든 출력은 기준 시점, 근거 요인, 확인 포인트를 포함하는 방향으로 설계한다
+- 구조화 출력(`json`)과 문장 출력(`markdown`/`report`)을 함께 고려해 응답 스키마를 잡는다
+- 근거 부족, 데이터 누락, 최신성 문제는 공통 경고 규칙으로 처리한다
+
+### 보류 메모
+- 자동 수집, 세분 예측, 자동 배포는 초기 가치 검증 이후로 미룬다
+- 이유: 현재 단계에서는 데이터 품질, 설명 신뢰성, 사람 검토 흐름을 먼저 안정화하는 것이 우선이기 때문이다
+
+## 부록. 첫 버전 핵심 제품 원칙
+
+1. 하나의 에이전트에서 조회와 예측을 모두 지원한다
+2. 총계는 숫자 예측을 제공한다
+3. 채널별로는 방향성과 근거 설명을 제공한다
+4. 시책효과는 AI가 해석하되, 사람은 원천 데이터만 입력한다
+5. 결과는 사람의 참고·정리·보고용이다
+6. 임원 기대를 맞추는 숫자보다 실제 착지 가능성이 높은 숫자를 우선한다",,,,
+markdown,README.md,README.md#1,,,1,markdown,"# Channel Volume Insight AI Docs
+
+이 저장소는 채널물량 인사이트 AI 에이전트 기획 문서 4종을 한 번에 보기 쉽게 정리한 문서 저장소입니다.
+
+## Documents
+
+| 문서 | 설명 |
+|---|---|
+| [PRD.md](./PRD.md) | 제품 방향, 범위, 입력 데이터, 출력 구조, HITL 원칙을 담은 기준 문서 |
+| [AGENTS.md](./AGENTS.md) | 에이전트 역할, 핵심 기능, 승인 기준, 운영 원칙 요약 |
+| [customer.md](./customer.md) | 사용자 장면, JTBD, 기대 가치, 신뢰 조건 정리 |
+| [architecture.md](./architecture.md) | 입력 → 해석 → 전망 → 보고초안 흐름과 도구 구조 요약 |
+
+## Recommended Reading Order
+
+1. [PRD.md](./PRD.md)
+2. [AGENTS.md](./AGENTS.md)
+3. [customer.md](./customer.md)
+4. [architecture.md](./architecture.md)
+
+## Notes",,,,
+markdown,README.md,README.md#2,,,2,markdown,"- GitHub 첫 화면에서 바로 4개 문서를 열 수 있도록 `customer.md`, `architecture.md`도 저장소 루트에 배치했다.
+- 문서 간 기준 용어와 방향성은 `PRD.md`를 우선 기준으로 맞춘다.",,,,

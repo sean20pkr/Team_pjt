@@ -1,0 +1,1590 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>삼성생명 채널물량 인사이트 AI 에이전트 | Preview</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg-2: #f8fbff;
+      --panel: rgba(255, 255, 255, 0.98);
+      --panel-2: rgba(248, 251, 255, 0.98);
+      --line: rgba(59, 130, 246, 0.14);
+      --text: #0f172a;
+      --muted: #64748b;
+      --brand: #2563eb;
+      --brand-strong: #1d4ed8;
+      --warn: #2563eb;
+      --danger: #b42318;
+      --badge: #dce7f5;
+      --shadow: 0 16px 40px rgba(37, 99, 235, 0.06);
+      --radius: 28px;
+      --radius-sm: 18px;
+      --focus: 0 0 0 3px rgba(59, 130, 246, 0.24);
+      font-synthesis-weight: none;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: "HG꼬딕씨", "Hancom Gothic", "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.05), transparent 24%),
+        linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      line-height: 1.55;
+      letter-spacing: -0.01em;
+    }
+
+    .shell {
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .hero {
+      max-width: 1280px;
+      margin: 0 auto 18px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.06), transparent 24%),
+        radial-gradient(circle at 85% 18%, rgba(59, 130, 246, 0.06), transparent 22%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 251, 255, 0.98));
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-grid {
+      display: block;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      padding-right: 110px;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      border-radius: 999px;
+      border: 1px solid rgba(37, 99, 235, 0.14);
+      background: rgba(37, 99, 235, 0.06);
+      color: #1d4ed8;
+      padding: 8px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .hero h2 {
+      margin: 0;
+      max-width: 100%;
+      font-size: clamp(30px, 5vw, 54px);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      text-wrap: balance;
+    }
+
+    .hero p {
+      margin: 14px 0 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .hero-tag {
+      min-height: 40px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.16);
+      background: rgba(255,255,255,0.96);
+      display: inline-flex;
+      align-items: center;
+      color: #334155;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .icon-badge {
+      display: inline-flex;
+      width: 22px;
+      height: 22px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      border: 1px solid rgba(37,99,235,0.14);
+      background: rgba(255,255,255,0.98);
+      color: #2563eb;
+      font-size: 11px;
+      font-weight: 700;
+      flex: 0 0 auto;
+      margin-right: 6px;
+    }
+
+    .icon-badge--brand {
+      border-color: rgba(37,99,235,0.14);
+      background: rgba(37,99,235,0.06);
+      color: #2563eb;
+    }
+
+    .icon-badge--amber {
+      border-color: rgba(37,99,235,0.14);
+      background: rgba(37,99,235,0.06);
+      color: #2563eb;
+    }
+
+    .section-title {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-art {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      width: 98px;
+      height: 92px;
+      z-index: 0;
+      border-radius: 20px;
+      border: 1px solid rgba(59,130,246,0.12);
+      background: rgba(255,255,255,0.96);
+      overflow: hidden;
+      padding: 8px;
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+    }
+
+    .hero-art img {
+      width: 220%;
+      height: 100%;
+      display: block;
+      max-width: none;
+      object-fit: cover;
+      object-position: 100% center;
+      transform: translateX(-62%);
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+    }
+
+    .panel {
+      background: linear-gradient(180deg, var(--panel), rgba(255, 255, 255, 0.98));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 22px 22px 16px;
+      border-bottom: 1px solid rgba(59,130,246,0.10);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brand);
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.15;
+      text-wrap: balance;
+    }
+
+    .panel-head p {
+      margin: 10px 0 0;
+      max-width: 42ch;
+      line-height: 1.75;
+      color: var(--muted);
+      font-size: 14px;
+      text-wrap: balance;
+    }
+
+    .banner {
+      margin: 16px 22px 0;
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.06), rgba(59, 130, 246, 0.04));
+      border: 1px solid rgba(59, 130, 246, 0.12);
+      color: #1e3a8a;
+      font-size: 13px;
+    }
+
+    .input-area {
+      padding: 18px 22px 22px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #0f172a;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 176px;
+      resize: vertical;
+      border: 1px solid rgba(59,130,246,0.12);
+      border-radius: 24px;
+      background: #ffffff;
+      color: var(--text);
+      padding: 16px 16px 18px;
+      font: inherit;
+      font-size: 15px;
+      outline: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+    }
+
+    textarea:focus {
+      box-shadow: var(--focus);
+      border-color: rgba(37, 99, 235, 0.45);
+    }
+
+    textarea::placeholder { color: #71859c; }
+
+    .helper {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .sample-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .chip, .chip-outline {
+      min-height: 44px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      white-space: nowrap;
+    }
+
+    .chip {
+      background: rgba(37, 99, 235, 0.08);
+      color: #1d4ed8;
+      border-color: rgba(37, 99, 235, 0.14);
+    }
+
+    .chip-outline {
+      background: rgba(255,255,255,0.96);
+      color: var(--text);
+      border-color: rgba(59,130,246,0.12);
+    }
+
+    .action-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .button {
+      min-height: 48px;
+      border: 0;
+      border-radius: 16px;
+      padding: 0 18px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--brand), var(--brand-strong));
+      color: #ffffff;
+      box-shadow: 0 12px 24px rgba(37, 99, 235, 0.18);
+      flex: 1;
+    }
+
+    .button-secondary {
+      background: rgba(255,255,255,0.96);
+      color: var(--text);
+      border: 1px solid rgba(59,130,246,0.12);
+    }
+
+    .button:focus-visible, .chip:focus-visible, .chip-outline:focus-visible {
+      outline: none;
+      box-shadow: var(--focus);
+    }
+
+    .result-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .status-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .badge {
+      min-height: 30px;
+      padding: 0 12px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .badge-gray {
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .badge-cyan {
+      background: rgba(37, 99, 235, 0.08);
+      color: #1d4ed8;
+      border-color: rgba(37, 99, 235, 0.12);
+    }
+
+    .badge-amber {
+      background: rgba(37, 99, 235, 0.08);
+      color: #1d4ed8;
+      border-color: rgba(37, 99, 235, 0.12);
+    }
+
+    .answer-card {
+      margin: 18px 22px 22px;
+      padding: 18px;
+      border-radius: 24px;
+      background: var(--panel-2);
+      border: 1px solid rgba(59,130,246,0.12);
+    }
+
+    .answer {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #0f172a;
+      margin: 0;
+      overflow-wrap: anywhere;
+      word-break: keep-all;
+    }
+
+    .answer p {
+      margin: 0 0 10px;
+    }
+
+    .answer p:last-child {
+      margin-bottom: 0;
+    }
+
+    .answer .num-good {
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+
+    .answer .num-weak {
+      color: #fda4af;
+      font-weight: 700;
+    }
+
+    .evidence-grid {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .insight-graph {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #bfdbfe;
+      border-radius: 32px;
+      background: linear-gradient(135deg, #eff6ff 0%, #ffffff 44%, #ffffff 100%);
+      box-shadow: 0 14px 35px rgba(37, 99, 235, 0.08);
+    }
+
+    .insight-graph-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .insight-graph-chip {
+      margin: 0;
+      border: 1px solid #dbeafe;
+      border-radius: 999px;
+      background: #fff;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #1d4ed8;
+      white-space: nowrap;
+    }
+
+    .insight-graph-layout {
+      margin-top: 20px;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+      align-items: center;
+    }
+
+    .insight-graph-ring {
+      position: relative;
+      width: min(320px, 100%);
+      aspect-ratio: 1 / 1;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 999px;
+      border: 1px solid #dbeafe;
+      background: #ffffff;
+      box-shadow: 0 18px 40px rgba(37, 99, 235, 0.08);
+    }
+
+    .insight-graph-fill {
+      position: absolute;
+      inset: 22px;
+      border-radius: 999px;
+      -webkit-mask: radial-gradient(circle, transparent 57%, #000 58%);
+      mask: radial-gradient(circle, transparent 57%, #000 58%);
+    }
+
+    .insight-graph-core {
+      position: absolute;
+      inset: 80px;
+      border-radius: 999px;
+      border: 1px solid #dbeafe;
+      background: #f8fafc;
+    }
+
+    .insight-graph-center {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 6px;
+      padding: 0 18px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .insight-graph-label {
+      margin: 0;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      color: #64748b;
+    }
+
+    .insight-graph-value {
+      margin: 2px 0 0;
+      font-size: clamp(15px, 3.8vw, 21px);
+      font-weight: 700;
+      line-height: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .insight-graph-desc {
+      margin: 2px 0 0;
+      font-size: 10px;
+      line-height: 1.25;
+      color: #475569;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: keep-all;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .insight-graph-legend {
+      border: 1px solid #dbeafe;
+      border-radius: 28px;
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.05);
+    }
+
+    .insight-graph-legend h4 {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .insight-graph-list {
+      margin-top: 16px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .insight-graph-item {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 18px;
+      background: #f8fafc;
+      padding: 12px 14px;
+    }
+
+    .insight-graph-item-label {
+      min-width: 0;
+    }
+
+    .insight-graph-item-label p {
+      margin: 0;
+    }
+
+    .insight-graph-item-label .tag {
+      font-size: 12px;
+      font-weight: 700;
+      color: #64748b;
+    }
+
+    .insight-graph-item-label .text {
+      margin-top: 4px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #1e293b;
+      line-height: 1.5;
+      word-break: keep-all;
+    }
+
+    .insight-graph-item-value {
+      margin: 0;
+      flex: 0 0 auto;
+      font-size: 14px;
+      font-weight: 700;
+      color: #1d4ed8;
+      white-space: nowrap;
+    }
+
+    .insight-graph-placeholder {
+      display: flex;
+      min-height: 220px;
+      align-items: center;
+      justify-content: center;
+      border: 1px dashed #bfdbfe;
+      border-radius: 24px;
+      background: rgba(239, 246, 255, 0.45);
+      padding: 20px;
+      text-align: center;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .evidence {
+      min-height: 92px;
+      border-radius: 20px;
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid rgba(59,130,246,0.12);
+      color: #475569;
+      font-size: 14px;
+    }
+
+    .footer-note {
+      max-width: 1280px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 1080px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .shell { padding: 14px; }
+      .hero {
+        padding: 18px;
+      }
+
+      .panel-head h2 {
+        font-size: 25px;
+      }
+
+      .evidence-grid, .state-rows {
+        grid-template-columns: 1fr;
+      }
+
+      .result-top {
+        flex-direction: column;
+      }
+
+      .status-badges {
+        justify-content: flex-start;
+      }
+
+      .action-row {
+        flex-direction: column;
+      }
+
+      .insight-graph-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .insight-graph-ring {
+        width: min(290px, 100%);
+      }
+
+      .insight-graph-core {
+        inset: 72px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="hero-tag"><span class="icon-badge">↗</span>보고형 조회 · 전망 보조</span>
+          </div>
+          <div style="margin-top:16px;max-width:900px;">
+            <h2 id="hero-title"><span style="display:block;">삼성생명 채널 물량</span><span style="display:block;">인사이트 AI 에이전트</span></h2>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="https://www.samsunglife.com/assets/img/img-brand-character03.59b6334c.png" alt="삼성생명 브랜드 캐릭터 별리" />
+        </div>
+      </div>
+    </section>
+
+    <details class="panel" open aria-labelledby="dashboard-title" style="margin-top:18px;">
+      <summary class="panel-head" style="cursor:pointer; list-style:none;">
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;">
+          <div>
+            <h2 id="dashboard-title"><span class="section-title"><span class="icon-badge icon-badge--brand">◉</span><span>대시보드</span></span></h2>
+          </div>
+          <span class="badge badge-cyan">접기 / 펼치기</span>
+        </div>
+      </summary>
+        <div class="input-area" style="padding-top:0;">
+          <div class="sample-row" id="dashboard-year-buttons" aria-label="대시보드 연도 선택"></div>
+          <div class="sample-row" id="dashboard-month-buttons" aria-label="대시보드 월 선택"></div>
+          <div style="margin:16px 0;border-top:1px solid #d9e3ef;"></div>
+          <div style="display:grid;grid-template-columns:repeat(4, minmax(0, 1fr));gap:12px;margin-top:12px;">
+            <div class="rounded-[24px] border border-slate-200 bg-white p-4">
+              <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);"><span class="icon-badge">◉</span><span>전사 총 월초</span></div>
+              <div id="dashboard-total" style="margin-top:8px;font-size:20px;font-weight:700;color:#1d4ed8;">0억</div>
+            </div>
+            <div class="rounded-[24px] border border-slate-200 bg-white p-4">
+              <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);"><span class="icon-badge">▣</span><span>보장월초</span></div>
+              <div id="dashboard-guarantee" style="margin-top:8px;font-size:20px;font-weight:700;color:#1d4ed8;">0억</div>
+            </div>
+            <div class="rounded-[24px] border border-slate-200 bg-white p-4">
+              <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);"><span class="icon-badge">⌁</span><span>종신월초</span></div>
+              <div id="dashboard-life" style="margin-top:8px;font-size:20px;font-weight:700;color:#1d4ed8;">0억</div>
+            </div>
+            <div class="rounded-[24px] border border-slate-200 bg-white p-4">
+              <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);"><span class="icon-badge">♥</span><span>건강월초</span></div>
+              <div id="dashboard-health" style="margin-top:8px;font-size:20px;font-weight:700;color:#1d4ed8;">0억</div>
+            </div>
+          </div>
+          <div style="margin:16px 0;border-top:1px solid #d9e3ef;"></div>
+          <div class="rounded-[28px] border border-slate-200 bg-white p-4" style="margin-top:16px;">
+          <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px;">
+            <div>
+              <div style="margin-top:4px;display:flex;align-items:center;gap:8px;font-size:20px;font-weight:700;"><span class="icon-badge icon-badge--brand">▣</span><span>채널별 주요 물량</span></div>
+            </div>
+          </div>
+          <div id="dashboard-cards" style="margin-top:16px;display:grid;grid-template-columns:1fr;gap:12px;"></div>
+          <div style="margin:16px 0;border-top:1px solid #d9e3ef;"></div>
+          <div class="rounded-[24px] border border-slate-200 bg-slate-50 p-4" style="margin-top:16px;">
+            <div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);"><span class="icon-badge icon-badge--amber">⚑</span><span>대/내외 이슈</span></div>
+            <div id="dashboard-issue" style="margin-top:8px;font-size:14px;line-height:1.6;color:#475569;white-space:normal;word-break:keep-all;overflow-wrap:anywhere;">GA 1200%룰 도래에 따른 13차월 이연 시책 경쟁으로 당사 유입물량이 약해졌다</div>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <main class="container" style="margin-top:18px;">
+      <section class="panel" aria-labelledby="input-title">
+        <div class="panel-head">
+          <h2 id="input-title"><span class="section-title"><span class="icon-badge icon-badge--brand">⌁</span><span>입력</span></span></h2>
+        </div>
+        <div class="banner">
+          답변은 참고용으로 사용해주세요. 개인정보는 입력되지 않습니다.
+        </div>
+        <div class="input-area">
+          <form id="query-form">
+            <label for="question" style="display:flex;align-items:center;gap:8px;font-size:18px;font-weight:700;color:#ffffff;letter-spacing:-0.02em;margin-bottom:10px;">
+              <span class="icon-badge icon-badge--brand">◉</span>
+              <span>질문</span>
+            </label>
+            <textarea id="question" placeholder="26년 6월 전사 및 채널별 건강 월초 전망을 알려줘."></textarea>
+            <div class="helper">
+              <span id="privacy-feedback">개인정보는 입력되지 않습니다.</span>
+            </div>
+            <div class="sample-row" aria-label="예시 질문">
+              <button class="chip-outline" type="button"><span class="icon-badge">◌</span><span>26년 6월 전사 및 채널별 건강 월초 전망을 알려줘.</span></button>
+              <button class="chip-outline" type="button"><span class="icon-badge">◌</span><span>26년 6월에 보장월초 250억을 해야해. 전략을 짜줘.</span></button>
+              <button class="chip-outline" type="button"><span class="icon-badge">◌</span><span>업적 인사이트 최근 3개월 채널별 업적 추이를 통한 강/약 분석을 남겨줘.</span></button>
+              <button class="chip-outline" type="button"><span class="icon-badge">◌</span><span>2026년 6월 전사 월초를 확정할 수 있어?</span></button>
+              <button class="chip-outline" type="button"><span class="icon-badge">◌</span><span>2026년 5월 보고서 초안을 써줘.</span></button>
+            </div>
+            <div class="action-row">
+              <button class="button button-primary" id="submit-button" type="submit">실행</button>
+              <button class="button button-secondary" id="reset-button" type="button">다시 질문</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="result-title">
+        <div class="panel-head">
+          <div class="result-top">
+            <div>
+              <p class="eyebrow"><span class="icon-badge">↗</span> 답변</p>
+              <h2 id="result-title"><span class="section-title"><span class="icon-badge icon-badge--brand">▣</span><span>답변</span></span></h2>
+            </div>
+            <div class="status-badges">
+              <span class="badge badge-cyan" id="classification-badge">대기 중</span>
+              <span class="badge badge-gray" id="status-badge">정상</span>
+              <span class="badge badge-amber" id="escalation-badge">담당자 확인 필요</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="answer-card" aria-live="polite">
+          <div id="numeric-graph" class="insight-graph">
+            <div class="insight-graph-head">
+              <div>
+                <p style="margin:0;font-size:14px;font-weight:700;color:#1d4ed8;">데이터 인포그래픽</p>
+              </div>
+              <p class="insight-graph-chip">답변 요약 시각화</p>
+            </div>
+            <div class="insight-graph-layout">
+              <div class="insight-graph-ring" id="infographic-ring">
+                <div class="insight-graph-fill" style="background:conic-gradient(#2563eb 0deg 120deg, #60a5fa 120deg 240deg, #93c5fd 240deg 360deg);" aria-hidden="true"></div>
+                <div class="insight-graph-core" aria-hidden="true"></div>
+                <div class="insight-graph-center" id="infographic-center">
+                  <div class="leading-tight">
+                    <p class="insight-graph-value" style="color:#1d4ed8;">132.1억</p>
+                    <p class="insight-graph-desc">전사 건강 평균</p>
+                  </div>
+                  <div class="leading-tight">
+                    <p class="insight-graph-value" style="color:#0ea5e9;">87.7억</p>
+                    <p class="insight-graph-desc">채널 건강 상위</p>
+                  </div>
+                  <div class="leading-tight">
+                    <p class="insight-graph-value" style="color:#38bdf8;">66.4%</p>
+                    <p class="insight-graph-desc">시장 점유 비중</p>
+                  </div>
+                </div>
+              </div>
+          <div class="insight-graph-legend" id="infographic-legend">
+            <div class="insight-graph-list">
+                <div class="insight-graph-item">
+                  <div class="insight-graph-item-label">
+                    <p class="text">전사 건강 평균</p>
+                  </div>
+                  <p class="insight-graph-item-value">132.1억</p>
+                </div>
+                <div class="insight-graph-item">
+                  <div class="insight-graph-item-label">
+                    <p class="text">채널 건강 상위 / FC본부</p>
+                  </div>
+                  <p class="insight-graph-item-value">87.7억</p>
+                </div>
+                <div class="insight-graph-item">
+                  <div class="insight-graph-item-label">
+                    <p class="text">시장 점유 비중</p>
+                  </div>
+                  <p class="insight-graph-item-value">66.4%</p>
+                </div>
+            </div>
+          </div>
+            </div>
+          </div>
+
+          <div class="answer" id="answer-text">
+            <p>질문을 입력하면 답변이 여기에 표시됩니다.</p>
+          </div>
+
+          <details class="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <summary class="cursor-pointer list-none text-sm font-semibold text-slate-900">
+              <span class="icon-badge icon-badge--brand" style="margin-right:8px;">▣</span>근거와 시사점은 펼쳐서 확인합니다.
+            </summary>
+            <div class="mt-4 space-y-4">
+              <div class="evidence-grid" aria-label="근거 자료">
+                <div class="evidence">근거가 여기에 표시됩니다.</div>
+                <div class="evidence">근거가 여기에 표시됩니다.</div>
+                <div class="evidence">근거가 여기에 표시됩니다.</div>
+                <div class="evidence">근거가 여기에 표시됩니다.</div>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 text-sm leading-7 text-slate-700">
+                시사점: 조회 결과는 보고 초안의 기초 자료로 바로 활용할 수 있습니다.
+              </div>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer-note">
+      로컬 미리보기용 정적 HTML입니다. 검색·답변 로직은 비워두고 화면 구조와 문구만 확인합니다.
+    </div>
+  </div>
+
+  <script>
+    const API_URL = 'http://127.0.0.1:3000/api/query';
+    const DASHBOARD_API_URL = 'http://127.0.0.1:3000/api/dashboard';
+    const form = document.getElementById('query-form');
+    const textarea = document.getElementById('question');
+    const feedback = document.getElementById('privacy-feedback');
+    const submitButton = document.getElementById('submit-button');
+    const resetButton = document.getElementById('reset-button');
+    const dashboardYearButtons = document.getElementById('dashboard-year-buttons');
+    const dashboardMonthButtons = document.getElementById('dashboard-month-buttons');
+    const dashboardTotal = document.getElementById('dashboard-total');
+    const dashboardGuarantee = document.getElementById('dashboard-guarantee');
+    const dashboardLife = document.getElementById('dashboard-life');
+    const dashboardHealth = document.getElementById('dashboard-health');
+    const dashboardIssue = document.getElementById('dashboard-issue');
+    const dashboardCards = document.getElementById('dashboard-cards');
+    const answerText = document.getElementById('answer-text');
+    const numericGraph = document.getElementById('numeric-graph');
+    const classificationBadge = document.getElementById('classification-badge');
+    const statusBadge = document.getElementById('status-badge');
+    const escalationBadge = document.getElementById('escalation-badge');
+    const evidenceGrid = document.querySelector('.evidence-grid');
+    const dashboardState = {
+      years: [],
+      monthsByYear: {},
+      selectedYear: '',
+      selectedMonth: '',
+    };
+    const blockedPatterns = [
+      /\b\d{6,}\b/,
+      /\b\d{2,3}-\d{3,4}-\d{4}\b/,
+      /\b\d{2,3}\s\d{3,4}\s\d{4}\b/,
+      /\b\d{4}[- ]?\d{4}[- ]?\d{4}[- ]?\d{4}\b/,
+    ];
+    const weakPhrases = [
+      '추가 확인 필요',
+      '확정할 수 없어',
+      '확정은 불가',
+      '숫자 단정 불가',
+      '소폭 하락추세',
+      '하락추세',
+      '감소',
+      '줄어',
+      '약하락추세',
+      '약세',
+      '위험',
+      '지연',
+      '압박',
+      '불가',
+    ];
+
+    function hasSensitiveNumber(value) {
+      return blockedPatterns.some((pattern) => pattern.test(value));
+    }
+
+    function splitReportText(text) {
+      return text
+        .split(/\n+/)
+        .flatMap((line) => line.split(/(?<=[。！？.!?])\s+|,\s*/))
+        .map((part) => part.trim())
+        .filter(Boolean);
+    }
+
+    function normalizeAmountPostpositions(text) {
+      return text.replace(/(\d+(?:\.\d+)?)억로/g, '$1억으로');
+    }
+
+    const dateLikeLinePatterns = [
+      /\b\d{4}년\b/,
+      /\b\d{4}년\s*\d{1,2}월\b/,
+      /\b\d{4}-\d{2}(?:-\d{2})?\b/,
+      /\b\d{1,2}월\s*(?:전망|보고|마감|초안|요약|정리|기준)\b/,
+      /\b대상월\b/,
+    ];
+
+    function isDateLikeLine(line) {
+      return dateLikeLinePatterns.some((pattern) => pattern.test(line));
+    }
+
+    function scoreNumericLine(line, raw) {
+      let score = 0;
+
+      if (raw.includes('억')) score += 5;
+      if (raw.includes('%')) score += 1;
+      if (raw.includes('영업일')) score += 1;
+      if (line.includes('전사')) score += 3;
+      if (line.includes('채널')) score += 2;
+      if (line.includes('월초')) score += 2;
+      if (line.includes('업적')) score += 1;
+      if (line.includes('평균')) score += 1;
+      if (line.includes('상위')) score += 1;
+      if (line.includes('합계')) score += 1;
+      if (line.includes('범위')) score -= 1;
+      if (line.includes('대상월')) score -= 4;
+      if (line.includes('기준')) score -= 1;
+      if (/\d{4}년/.test(line) || /\d{4}-\d{2}/.test(line)) score -= 4;
+      if (raw.includes('%')) score -= 2;
+      if (raw.includes('영업일')) score -= 1;
+
+      return score;
+    }
+
+    function deriveNumericLabel(line, raw) {
+      let label = normalizeAmountPostpositions(line);
+      const rawIndex = label.indexOf(raw);
+
+      if (rawIndex > 0) {
+        label = label.slice(0, rawIndex);
+      }
+
+      label = label
+        .replace(/(=|:|→|->|,|·)/g, ' ')
+        .replace(/최근\s*흐름이/g, '최근 흐름')
+        .replace(/최근\s*3개월/g, '최근 3개월')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      if (!label) {
+        label = line.trim();
+      }
+
+      if (label.length > 18) {
+        label = `${label.slice(0, 18)}…`;
+      }
+
+      return label;
+    }
+
+    function categorizeNumericPoint(label, raw) {
+      const text = `${label} ${raw}`;
+      if (text.includes('전사') && text.includes('월초')) return 'total';
+      if (text.includes('채널') || /FC본부|전략본부|GA|GFC|BA|금융서비스|신채널사업단|AFC|디지털 사업부/.test(text)) return 'channel';
+      if (text.includes('건강')) return 'health';
+      if (text.includes('종신')) return 'life';
+      if (text.includes('보장')) return 'guarantee';
+      if (text.includes('Special_Product') || text.includes('신상품') || text.includes('더퍼스트') || text.includes('플러스원')) return 'special';
+      if (raw.includes('%')) return 'ratio';
+      if (raw.includes('영업일')) return 'business-day';
+      return 'other';
+    }
+
+    function formatChannelMetricLabel(label) {
+      const match = label.match(/(FC본부|전략본부|GA|GFC|BA|금융서비스|신채널사업단|AFC|디지털 사업부)/);
+      if (!match) return label;
+      const channel = match[1];
+      if (label.includes('건강')) return `${channel} 건강월초`;
+      if (label.includes('보장')) return `${channel} 보장월초`;
+      if (label.includes('종신')) return `${channel} 종신월초`;
+      if (label.includes('총') || label.includes('월초')) return `${channel} 총 월초`;
+      return `${channel} 월초`;
+    }
+
+    function stripDateFragments(text) {
+      return text
+        .replace(/\b\d{4}년\s*\d{1,2}월\b/g, ' ')
+        .replace(/\b\d{4}년\b/g, ' ')
+        .replace(/\b\d{1,2}월\b/g, ' ')
+        .replace(/\b\d{4}-\d{2}(?:-\d{2})?\b/g, ' ')
+        .replace(/\b\d{1,2}일\b/g, ' ');
+    }
+
+    function isCountOnlyMatch(line, match) {
+      if (/[.]/.test(match)) return false;
+      if (/[억%영업일]/.test(match)) return false;
+      return /(종|차|위|개|명|건|회|부|대|회차)/.test(line) && !/(전사|채널|건강|종신|보장|Special_Product|FC본부|전략본부|GA|GFC|BA|금융서비스|신채널사업단|AFC|디지털 사업부)/.test(line);
+    }
+
+    function isTotalOnlyQuestion(question) {
+      const q = normalizeAmountPostpositions(String(question || '')).replace(/\s+/g, '').toLowerCase();
+      return q.includes('전사월초') || (q.includes('전사') && q.includes('월초') && !q.includes('채널') && !q.includes('fc') && !q.includes('ga') && !q.includes('gfc') && !q.includes('ba') && !q.includes('신채널') && !q.includes('디지털') && !q.includes('afc'));
+    }
+
+    function extractNumericPoints(answer, evidence, question) {
+      const lines = [
+        ...splitReportText(answer || ''),
+        ...(Array.isArray(evidence) ? evidence : []),
+      ];
+      const points = [];
+      const numericPattern = /-?\d+(?:\.\d+)?(?:~\d+(?:\.\d+)?)?(?:억|%|영업일)?/g;
+      const seen = new Set();
+
+      for (const line of lines) {
+        if (isDateLikeLine(line)) {
+          continue;
+        }
+
+        if (line.includes('~')) {
+          continue;
+        }
+
+        const cleanedLine = stripDateFragments(line);
+        const matches = cleanedLine.match(numericPattern) || [];
+        for (const match of matches) {
+          if (isCountOnlyMatch(cleanedLine, match)) {
+            continue;
+          }
+
+          const value = Number.parseFloat(match.replace(/[^\d.-]/g, ''));
+          if (!Number.isFinite(value)) {
+            continue;
+          }
+
+          const key = `${cleanedLine}|${match}`;
+          if (seen.has(key)) {
+            continue;
+          }
+
+          seen.add(key);
+          const label = formatChannelMetricLabel(deriveNumericLabel(cleanedLine, match));
+          points.push({
+            label,
+            raw: match,
+            value,
+            positive: !cleanedLine.includes('감소') && !cleanedLine.includes('하락추세') && !cleanedLine.includes('약세') && value >= 0,
+            category: categorizeNumericPoint(label, match),
+          });
+        }
+      }
+
+      const uniquePoints = points.filter((point, index, self) => self.findIndex((item) => item.raw === point.raw && item.category === point.category) === index);
+      if (isTotalOnlyQuestion(question)) {
+        const totalPoints = uniquePoints
+          .filter((point) => point.category === 'total' || point.label.includes('전사'))
+          .sort((a, b) => scoreNumericLine(b.label, b.raw) - scoreNumericLine(a.label, a.raw));
+
+        if (totalPoints.length > 0) {
+          return totalPoints.slice(0, 3);
+        }
+      }
+
+      const categoryOrder = ['total', 'channel', 'health', 'life', 'guarantee', 'special', 'ratio', 'business-day', 'other'];
+      const bestByCategory = new Map();
+
+      for (const point of uniquePoints) {
+        const current = bestByCategory.get(point.category);
+        if (!current) {
+          bestByCategory.set(point.category, point);
+          continue;
+        }
+
+        const currentScore = scoreNumericLine(current.label, current.raw);
+        const nextScore = scoreNumericLine(point.label, point.raw);
+        if (nextScore > currentScore) {
+          bestByCategory.set(point.category, point);
+        }
+      }
+
+      return categoryOrder
+        .map((category) => bestByCategory.get(category))
+        .filter(Boolean)
+        .sort((a, b) => scoreNumericLine(b.label, b.raw) - scoreNumericLine(a.label, a.raw))
+        .slice(0, 3);
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function formatMonthLabel(year, month) {
+      return `${year}년 ${Number(month)}월`;
+    }
+
+    function formatCompactAmount(value) {
+      const number = Number(value);
+      return `${Number.isInteger(number) ? number.toFixed(0) : number.toFixed(1)}억`;
+    }
+
+    function formatDashboardIssue(text) {
+      const value = String(text || '').trim();
+      if (!value || value === '주요 이슈 없음') {
+        return '주요 이슈 없음';
+      }
+
+      const normalized = value
+        .replace(/약해졌다$/, '약해진')
+        .replace(/강해졌다$/, '강해진')
+        .replace(/늘었다$/, '늘어난')
+        .replace(/줄었다$/, '줄어든')
+        .replace(/상승했다$/, '상승한')
+        .replace(/하락했다$/, '하락한')
+        .replace(/개선되었다$/, '개선된')
+        .replace(/악화되었다$/, '악화된')
+        .replace(/미달했다$/, '미달한')
+        .replace(/확인된다$/, '확인됩니다')
+        .replace(/[.。!?]+$/g, '');
+
+      return `보고 기준으로 ${normalized} 것으로 판단됩니다.`;
+    }
+
+    function groupDashboardCards(cards) {
+      const byChannel = new Map(cards.map((card) => [card.channel, card]));
+      const groups = [
+        { key: 'fc', label: 'FC본부', channels: ['FC'] },
+        { key: 'strategy', label: '전략본부', channels: ['GA', 'GFC', 'BA', '금융서비스', '신채널', 'AFC'] },
+        { key: 'digital', label: '디지털 사업부', channels: ['디지털'] },
+      ];
+
+      return groups.map((group) => {
+        const items = group.channels.map((channel) => byChannel.get(channel)).filter(Boolean);
+        const total = items.reduce((sum, item) => sum + item.total, 0);
+        const guarantee = items.reduce((sum, item) => sum + item.guarantee, 0);
+        const life = items.reduce((sum, item) => sum + item.life, 0);
+        const health = items.reduce((sum, item) => sum + item.health, 0);
+
+        return { ...group, items, total, guarantee, life, health };
+      });
+    }
+
+    function renderYearButtons() {
+      dashboardYearButtons.innerHTML = dashboardState.years.map((year) => {
+        const selected = dashboardState.selectedYear === year;
+        return `<button type="button" class="${selected ? 'chip' : 'chip-outline'}" data-year="${escapeHtml(year)}">${escapeHtml(year)}년</button>`;
+      }).join('');
+    }
+
+    function renderMonthButtons() {
+      const months = dashboardState.monthsByYear[dashboardState.selectedYear] || [];
+      dashboardMonthButtons.innerHTML = months.map((month) => {
+        const selected = dashboardState.selectedMonth === month;
+        return `<button type="button" class="${selected ? 'chip' : 'chip-outline'}" data-month="${escapeHtml(month)}">${Number(month)}월</button>`;
+      }).join('');
+    }
+
+    function renderDashboard(snapshot) {
+      dashboardState.selectedYear = snapshot.selectedYear;
+      dashboardState.selectedMonth = snapshot.selectedMonth;
+      dashboardTotal.textContent = formatCompactAmount(snapshot.total);
+      dashboardGuarantee.textContent = formatCompactAmount(snapshot.guaranteeTotal);
+      dashboardLife.textContent = formatCompactAmount(snapshot.lifeTotal);
+      dashboardHealth.textContent = formatCompactAmount(snapshot.healthTotal);
+      dashboardIssue.textContent = formatDashboardIssue(snapshot.issueLine);
+      const groups = groupDashboardCards(snapshot.cards || []);
+      dashboardCards.innerHTML = groups.map((group) => {
+        const cardGrid = `
+          <div class="rounded-2xl border border-slate-200 bg-white p-4">
+            <div style="display:flex;flex-direction:column;gap:12px;">
+              <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;">
+                <div style="font-size:14px;font-weight:700;">${escapeHtml(group.label)}</div>
+                <div style="font-size:18px;font-weight:700;color:#1d4ed8;">${formatCompactAmount(group.total)}</div>
+              </div>
+              <div style="overflow:hidden;border:1px solid #d9e3ef;border-radius:16px;background:#f8fafc;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));">
+                ${[
+                  { label: '총 월초', value: formatCompactAmount(group.total) },
+                  { label: '보장월초', value: formatCompactAmount(group.guarantee) },
+                  { label: '종신월초', value: formatCompactAmount(group.life) },
+                  { label: '건강월초', value: formatCompactAmount(group.health) },
+                ].map((item, index) => {
+                  const isRight = index % 2 === 0;
+                  const isBottom = index < 2;
+                  return `
+                    <div style="padding:12px 14px;${isRight ? 'border-right:1px solid #d9e3ef;' : ''}${isBottom ? 'border-bottom:1px solid #d9e3ef;' : ''}">
+                      <span style="display:block;font-size:12px;color:var(--muted);">${item.label}</span>
+                      <span style="display:block;margin-top:4px;font-size:14px;font-weight:700;color:#1d4ed8;">${item.value}</span>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </div>
+        `;
+
+        if (group.key !== 'strategy') {
+          return cardGrid;
+        }
+
+        const children = group.items.map((card) => `
+          <div class="rounded-2xl border border-slate-200 bg-white p-4">
+            <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;">
+              <div style="font-size:14px;font-weight:700;">${escapeHtml(card.channel)}</div>
+              <div style="font-size:18px;font-weight:700;color:#1d4ed8;">${formatCompactAmount(card.total)}</div>
+            </div>
+            <div style="margin-top:12px;overflow:hidden;border:1px solid #d9e3ef;border-radius:16px;background:#f8fafc;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));">
+              ${[
+                { label: '총 월초', value: formatCompactAmount(card.total) },
+                { label: '보장월초', value: formatCompactAmount(card.guarantee) },
+                { label: '종신월초', value: formatCompactAmount(card.life) },
+                { label: '건강월초', value: formatCompactAmount(card.health) },
+              ].map((item, index) => {
+                const isRight = index % 2 === 0;
+                const isBottom = index < 2;
+                return `
+                  <div style="padding:12px 14px;${isRight ? 'border-right:1px solid #d9e3ef;' : ''}${isBottom ? 'border-bottom:1px solid #d9e3ef;' : ''}">
+                    <span style="display:block;font-size:12px;color:var(--muted);">${item.label}</span>
+                    <span style="display:block;margin-top:4px;font-size:14px;font-weight:700;color:#1d4ed8;">${item.value}</span>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `).join('');
+
+        return `
+          <details class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <summary class="cursor-pointer list-none">
+              <div style="display:flex;flex-direction:column;gap:12px;">
+                <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;">
+                  <div style="font-size:14px;font-weight:700;">${escapeHtml(group.label)}</div>
+                  <div style="font-size:18px;font-weight:700;color:#1d4ed8;">${formatCompactAmount(group.total)}</div>
+                </div>
+                <div style="overflow:hidden;border:1px solid #d9e3ef;border-radius:16px;background:#ffffff;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));">
+                  ${[
+                    { label: '총 월초', value: formatCompactAmount(group.total) },
+                    { label: '보장월초', value: formatCompactAmount(group.guarantee) },
+                    { label: '종신월초', value: formatCompactAmount(group.life) },
+                    { label: '건강월초', value: formatCompactAmount(group.health) },
+                  ].map((item, index) => {
+                    const isRight = index % 2 === 0;
+                    const isBottom = index < 2;
+                    return `
+                      <div style="padding:12px 14px;${isRight ? 'border-right:1px solid #d9e3ef;' : ''}${isBottom ? 'border-bottom:1px solid #d9e3ef;' : ''}">
+                        <span style="display:block;font-size:12px;color:var(--muted);">${item.label}</span>
+                        <span style="display:block;margin-top:4px;font-size:14px;font-weight:700;color:#1d4ed8;">${item.value}</span>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+                <p style="margin:0;font-size:12px;line-height:1.5;color:#64748b;">GA + GFC + BA + 금융서비스 + 신채널 + AFC</p>
+              </div>
+            </summary>
+            <div style="margin-top:14px;display:grid;gap:12px;">
+              ${children}
+            </div>
+          </details>
+        `;
+      }).join('');
+      renderYearButtons();
+      renderMonthButtons();
+    }
+
+    async function loadDashboard(year, month) {
+      const params = new URLSearchParams();
+      if (year) params.set('year', year);
+      if (month) params.set('month', month);
+
+      const response = await fetch(`${DASHBOARD_API_URL}?${params.toString()}`);
+      if (!response.ok) {
+        throw new Error('대시보드 불러오기 실패');
+      }
+
+      const data = await response.json();
+      dashboardState.years = data.years || [];
+      dashboardState.monthsByYear = data.monthsByYear || {};
+      renderDashboard(data.snapshot);
+    }
+
+    function highlightHtml(text) {
+      const combined = new RegExp(
+        `${weakPhrases
+          .slice()
+          .sort((a, b) => b.length - a.length)
+          .map((phrase) => phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+          .join('|')}|\\d+(?:\\.\\d+)?(?:~\\d+(?:\\.\\d+)?)?`,
+        'g',
+      );
+      let output = '';
+      let cursor = 0;
+
+      for (const match of text.matchAll(combined)) {
+        const index = match.index ?? 0;
+        if (index > cursor) {
+          output += escapeHtml(text.slice(cursor, index));
+        }
+
+        const value = match[0];
+        const kind = weakPhrases.some((phrase) => value.includes(phrase)) ? 'red' : 'blue';
+        output += `<span class="${kind === 'blue' ? 'num-good' : 'num-weak'}">${escapeHtml(value)}</span>`;
+        cursor = index + value.length;
+      }
+
+      if (cursor < text.length) {
+        output += escapeHtml(text.slice(cursor));
+      }
+
+      return output || escapeHtml(text);
+    }
+
+    function setLoading(isLoading) {
+      submitButton.disabled = isLoading;
+      submitButton.textContent = isLoading ? '답변 생성 중...' : '실행';
+    }
+
+    function buildInfographicHtml(points) {
+      const dedupedPoints = Array.isArray(points) && points.length > 0
+        ? points.filter((point, index, self) => self.findIndex((item) => item.raw === point.raw) === index)
+        : [];
+      if (dedupedPoints.length === 0) {
+        return `
+          <div class="insight-graph-placeholder">
+            답변에 표시할 숫자가 부족합니다.
+          </div>
+        `;
+      }
+
+      const basePoints = dedupedPoints.slice(0, 3);
+
+      const total = Math.max(basePoints.reduce((sum, item) => sum + Math.abs(item.value), 0), 1);
+      const palette = ['#1d4ed8', '#0ea5e9', '#38bdf8'];
+      let start = 0;
+      const arcs = basePoints.map((point, index) => {
+        const size = Math.max(8, (Math.abs(point.value) / total) * 360);
+        const end = start + size;
+        const color = palette[index % palette.length];
+        const arc = `${color} ${start}deg ${end}deg`;
+        start = end;
+        return arc;
+      });
+
+      return `
+          <div class="insight-graph-head">
+            <div>
+              <p style="margin:0;font-size:14px;font-weight:700;color:#1d4ed8;">데이터 인포그래픽</p>
+            </div>
+          <p class="insight-graph-chip">답변 요약 시각화</p>
+        </div>
+        <div class="insight-graph-layout">
+          <div class="insight-graph-ring">
+            <div class="insight-graph-fill" style="background:conic-gradient(${arcs.join(', ')});" aria-hidden="true"></div>
+            <div class="insight-graph-core" aria-hidden="true"></div>
+            <div class="insight-graph-center">
+              ${basePoints.map((point, index) => `
+                <div class="leading-tight">
+                  <p class="insight-graph-value" style="color:${palette[index % palette.length]};">${escapeHtml(point.raw)}</p>
+                  <p class="insight-graph-desc">${escapeHtml(point.label)}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+          <div class="insight-graph-legend">
+            <div class="insight-graph-list">
+              ${basePoints.map((point, index) => `
+                <div class="insight-graph-item">
+                  <div class="insight-graph-item-label">
+                    <p class="text">${escapeHtml(point.label)}</p>
+                  </div>
+                  <p class="insight-graph-item-value">${escapeHtml(point.raw)}</p>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderResponse(data) {
+      classificationBadge.textContent = data.classification || '기타';
+      statusBadge.textContent = data.status === 'additional_check' ? '추가 확인 필요' : '정상';
+      escalationBadge.textContent = data.status === 'additional_check' ? '담당자 확인 필요' : '담당자 확인 가능';
+
+      const lines = splitReportText(normalizeAmountPostpositions(data.answer || '질문을 넣으면 답변이 여기에 표시됩니다.'));
+      answerText.innerHTML = lines.map((line) => `<p>${highlightHtml(line)}</p>`).join('');
+
+      const evidence = Array.isArray(data.evidence) && data.evidence.length > 0
+        ? data.evidence.map((item) => normalizeAmountPostpositions(item))
+        : ['근거가 없습니다.', '질문을 다시 정리해 주세요.', '데이터 범위를 확인해 주세요.'];
+
+      evidenceGrid.innerHTML = evidence
+        .slice(0, 4)
+        .map((item) => `<div class="evidence">${escapeHtml(item)}</div>`)
+        .join('');
+
+      const points = extractNumericPoints(data.answer || '', evidence, questionInput.value).slice(0, 3);
+      numericGraph.innerHTML = buildInfographicHtml(points);
+    }
+
+    function renderError(message) {
+      classificationBadge.textContent = '기타';
+      statusBadge.textContent = '오류';
+      escalationBadge.textContent = '담당자 확인 필요';
+      answerText.innerHTML = `<p>${escapeHtml(message)}</p>`;
+      evidenceGrid.innerHTML = [
+        '네트워크 또는 서버 상태를 확인해 주세요.',
+        '질문 범위가 맞는지 다시 써 주세요.',
+        '로컬 서버가 실행 중인지 확인해 주세요.',
+        '응답이 없으면 다시 실행해 주세요.',
+      ].map((item) => `<div class="evidence">${escapeHtml(item)}</div>`).join('');
+      numericGraph.innerHTML = buildInfographicHtml([]);
+    }
+
+    dashboardYearButtons.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) {
+        return;
+      }
+
+      const year = target.getAttribute('data-year');
+      if (!year) {
+        return;
+      }
+
+      loadDashboard(year).catch(() => renderError('대시보드 데이터를 불러오지 못했습니다.'));
+    });
+
+    dashboardMonthButtons.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) {
+        return;
+      }
+
+      const month = target.getAttribute('data-month');
+      if (!month) {
+        return;
+      }
+
+      loadDashboard(dashboardState.selectedYear, month).catch(() => renderError('대시보드 데이터를 불러오지 못했습니다.'));
+    });
+
+    textarea.addEventListener('input', () => {
+      const value = textarea.value;
+      if (hasSensitiveNumber(value)) {
+        feedback.textContent = '전화번호, 주민번호, 카드번호처럼 보이는 숫자는 넣지 말아주세요.';
+        feedback.style.color = '#fca5a5';
+        textarea.setCustomValidity('개인정보처럼 보이는 숫자는 입력할 수 없습니다.');
+      } else {
+        feedback.textContent = '개인정보 유사 숫자 입력은 제한됩니다.';
+        feedback.style.color = '';
+        textarea.setCustomValidity('');
+      }
+    });
+
+    document.querySelectorAll('.sample-row .chip-outline').forEach((button) => {
+      button.addEventListener('click', () => {
+        textarea.value = button.textContent || '';
+        textarea.dispatchEvent(new Event('input'));
+      });
+    });
+
+    resetButton.addEventListener('click', () => {
+      textarea.value = '';
+      textarea.dispatchEvent(new Event('input'));
+      answerText.innerHTML = '<p>질문을 입력하면 답변이 여기에 표시됩니다.</p>';
+      classificationBadge.textContent = '대기 중';
+      statusBadge.textContent = '정상';
+      escalationBadge.textContent = '담당자 확인 필요';
+      evidenceGrid.innerHTML = [
+        '근거가 여기에 표시됩니다.',
+        '근거가 여기에 표시됩니다.',
+        '근거가 여기에 표시됩니다.',
+        '근거가 여기에 표시됩니다.',
+      ].map((item) => `<div class="evidence">${item}</div>`).join('');
+      numericGraph.innerHTML = buildInfographicHtml([]);
+      textarea.focus();
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const question = textarea.value.trim();
+      if (!question) {
+        renderError('질문을 입력해 주세요.');
+        return;
+      }
+
+      if (hasSensitiveNumber(question)) {
+        renderError('개인정보처럼 보이는 숫자는 입력할 수 없습니다.');
+        return;
+      }
+
+      setLoading(true);
+
+      try {
+        const response = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question }),
+        });
+        const data = await response.json();
+
+        if (!response.ok) {
+          renderError(data.error || '질문을 처리하지 못했습니다.');
+          return;
+        }
+
+        renderResponse(data);
+      } catch (error) {
+        renderError('서버와 통신하지 못했습니다. 로컬 Next 서버가 실행 중인지 확인해 주세요.');
+      } finally {
+        setLoading(false);
+      }
+    });
+
+    loadDashboard().catch(() => {
+      dashboardState.years = ['2026'];
+      dashboardState.monthsByYear = { '2026': ['05'] };
+      dashboardState.selectedYear = '2026';
+      dashboardState.selectedMonth = '05';
+      renderDashboard({
+        monthLabel: '2026년 5월',
+        total: 259.0,
+        issueLine: 'GA 1200%룰 도래에 따른 13차월 이연 시책 경쟁으로 당사 유입물량이 약해졌다',
+        cards: [
+          { channel: 'FC', total: 147.0, guarantee: 145.0, life: 58.8, health: 86.2 },
+          { channel: 'GA', total: 33.1, guarantee: 31.1, life: 12.6, health: 18.5 },
+          { channel: 'GFC', total: 31.1, guarantee: 29.1, life: 11.8, health: 17.3 },
+          { channel: 'BA', total: 25.4, guarantee: 0.0, life: 0.0, health: 0.0 },
+          { channel: '금융서비스', total: 8.1, guarantee: 6.1, life: 2.4, health: 3.7 },
+          { channel: '디지털', total: 6.2, guarantee: 1.1, life: 0.4, health: 0.7 },
+          { channel: '신채널', total: 4.1, guarantee: 3.0, life: 1.3, health: 1.7 },
+          { channel: 'AFC', total: 4.0, guarantee: 3.0, life: 1.2, health: 1.8 },
+        ],
+        selectedYear: '2026',
+        selectedMonth: '05',
+      });
+    });
+  </script>
+</body>
+</html>

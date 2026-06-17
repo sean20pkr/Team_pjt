@@ -1,0 +1,14 @@
+source_kind,original_filename,storage_bucket,storage_path,source_year,source_month,note
+csv,monthly_summary.csv,agent-uploads,user_id/202606/monthly_summary.csv,,,원본 데이터
+csv,main_fact.csv,agent-uploads,user_id/202606/main_fact.csv,,,원본 데이터
+csv,monthly_events.csv,agent-uploads,user_id/202606/monthly_events.csv,,,원본 데이터
+csv,special_products.csv,agent-uploads,user_id/202606/special_products.csv,,,원본 데이터
+csv,channel_profile.csv,agent-uploads,user_id/202606/channel_profile.csv,,,원본 데이터
+csv,product_profile.csv,agent-uploads,user_id/202606/product_profile.csv,,,원본 데이터
+json,dummy_data_bundle.json,agent-uploads,user_id/202606/dummy_data_bundle.json,,,원본 데이터
+xlsx,channel_volume_dummy_data.xlsx,agent-uploads,user_id/202606/channel_volume_dummy_data.xlsx,,,원본 데이터
+markdown,AGENTS (1).md,agent-uploads,user_id/202606/AGENTS (1).md,,,문서 원본
+markdown,architecture (2).md,agent-uploads,user_id/202606/architecture (2).md,,,문서 원본
+markdown,customer (1).md,agent-uploads,user_id/202606/customer (1).md,,,문서 원본
+markdown,PRD (2).md,agent-uploads,user_id/202606/PRD (2).md,,,문서 원본
+markdown,README.md,agent-uploads,user_id/202606/README.md,,,문서 원본
